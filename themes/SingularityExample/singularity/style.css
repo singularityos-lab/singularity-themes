@@ -1,0 +1,78 @@
+/**
+ * SingularityExample - starter template for Singularity themes
+ *
+ * HOW IT WORKS
+ * ────────────
+ * This file is loaded at CSS priority 605 - above the built-in
+ * libsingularity base (600) but below high-contrast (800). Any rule
+ * here overrides the default Singularity look.
+ *
+ * VARIANTS
+ * ────────
+ * • style.css        (this file) - dark mode base (always loaded)
+ * • style-dark.css   - extra overrides when dark mode is active   (optional)
+ * • style-light.css  - extra overrides when light mode is active  (optional)
+ *
+ * Tip: keep style.css dark-neutral, put color swaps in the variants.
+ *
+ * BUNDLING GTK THEMES
+ * ───────────────────
+ * Place gtk-3.0/gtk.css and/or gtk-4.0/gtk.css alongside this
+ * singularity/ directory. They are picked up automatically by the
+ * GTK3/GTK4 theme selectors in Singularity Settings, Appearance.
+ * They are NOT applied automatically - the user must select them.
+ *
+ * AVAILABLE CSS VARIABLES (defined by libsingularity)
+ * ────────────────────────────────────────────────────
+ * @accent_color          - current accent (blue / teal / green / …)
+ * @accent_color_10       - accent at 10 % opacity
+ * @accent_color_15       - accent at 15 % opacity
+ * @accent_color_20       - accent at 20 % opacity
+ * @accent_color_50       - accent at 50 % opacity
+ * @text_color            - primary text
+ * @text_color_2          - secondary / dimmed text
+ * @bg_color              - main window background
+ * @bg_color_2            - slightly lighter surface
+ * @bg_color_3            - card / popover surface
+ * @border_color          - subtle border
+ * @hover_white           - translucent white for hover overlays
+ * @window_tint           - accent-tinted window bg
+ * @toolbar_bg            - semi-transparent toolbar background
+ *
+ * MAIN CSS CLASSES (Singularity widget selectors)
+ * ────────────────────────────────────────────────
+ * .singularity            - root class on every Singularity widget
+ * .singularity window     - top-level windows
+ * .singularity toolbar    - header / toolbar bar
+ * .singularity tabbar     - tab bar container
+ * .singularity .tab       - individual tab
+ * .singularity .tab.active
+ * .singularity sidebar    - sidebar panels
+ * .sidebar-item           - sidebar navigation items
+ * .sidebar-item.active
+ * .quick-setting-tile     - quick-settings toggle tiles
+ * .quick-setting-tile.active
+ * .quick-setting-tile.state-partial
+ * .workspace-preview      - workspace / wallpaper thumbnails
+ * .dock-item              - dock app icons
+ * .preferences-group      - settings group cards
+ * .preferences-row        - settings row inside a group
+ *
+ * EXAMPLE OVERRIDES (uncomment to try)
+ * ─────────────────────────────────────
+ */
+
+/*
+ * Rounded window corners
+ */
+/* .singularity window { border-radius: 16px; } */
+
+/*
+ * Custom toolbar background
+ */
+/* .singularity toolbar { background: alpha(@accent_color, 0.12); } */
+
+/*
+ * Softer card surfaces
+ */
+/* .preferences-group { background: alpha(@bg_color_3, 0.6); border-radius: 14px; } */

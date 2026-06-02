@@ -1,0 +1,10 @@
+/* Singularity GTK4 theme
+ *
+ * This file is intentionally empty.
+ * All widget styling is provided by libsingularity's style.css loaded at
+ * PRIORITY_APPLICATION (600) - above any theme-level CSS (200).
+ *
+ * Setting gtk-theme = "Singularity" prevents GTK4's built-in "Default" theme
+ * from loading, which would otherwise inject its own widget colors and layouts
+ * that conflict with Singularity's design system.
+ */

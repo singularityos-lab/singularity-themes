@@ -1,0 +1,189 @@
+/* Kids GTK4 theme - dark
+ *
+ * Rounded styling for GTK4 apps. Colours use neutral dark grays identical
+ * to the Singularity default. The accent colour is written at runtime into
+ * ~/.config/gtk-4.0/gtk.css by Singularity's style manager.
+ */
+
+/* Fallback accent (overridden by Singularity at runtime) */
+@define-color accent_color           #3584e4;
+@define-color accent_bg_color        @accent_color;
+@define-color accent_fg_color        white;
+
+/* Neutral dark surfaces */
+@define-color window_bg_color        #242424;
+@define-color window_fg_color        #ffffff;
+@define-color view_bg_color          #2a2a2a;
+@define-color view_fg_color          @window_fg_color;
+@define-color headerbar_bg_color     #2e2e2e;
+@define-color headerbar_fg_color     @window_fg_color;
+@define-color headerbar_border_color rgba(255,255,255,0.08);
+@define-color card_bg_color          rgba(255,255,255,0.08);
+@define-color card_fg_color          @window_fg_color;
+@define-color popover_bg_color       #303030;
+@define-color popover_fg_color       @window_fg_color;
+@define-color sidebar_bg_color       #242424;
+@define-color sidebar_fg_color       @window_fg_color;
+@define-color border_color           rgba(255,255,255,0.09);
+@define-color dim_label_color        rgba(255,255,255,0.55);
+@define-color error_color            #e01b24;
+@define-color warning_color          #e5a50a;
+@define-color success_color          #3a944a;
+
+* { outline-color: alpha(@accent_color, 0.5); }
+
+window, .background {
+    background-color: @window_bg_color;
+    color: @window_fg_color;
+}
+
+headerbar, .titlebar {
+    background-color: @headerbar_bg_color;
+    color: @headerbar_fg_color;
+    border-bottom: 1px solid @headerbar_border_color;
+    min-height: 46px;
+    padding: 0 8px;
+}
+headerbar windowtitle title { font-weight: 600; }
+headerbar windowtitle subtitle { font-size: 0.85em; color: @dim_label_color; }
+
+button {
+    background-color: @card_bg_color;
+    color: @window_fg_color;
+    border: 1px solid @border_color;
+    border-radius: 999px;
+    padding: 6px 16px;
+    transition: background-color 150ms ease;
+}
+button:hover    { background-color: alpha(@window_fg_color, 0.12); }
+button:active   { background-color: alpha(@accent_color, 0.22); }
+button:disabled { opacity: 0.45; }
+button.flat, button.circular {
+    background: transparent; border-color: transparent; border-radius: 10px;
+}
+button.flat:hover, button.circular:hover { background: alpha(@window_fg_color, 0.09); }
+button.suggested-action {
+    background-color: @accent_color; color: @accent_fg_color;
+    border-color: transparent; font-weight: 600;
+}
+button.suggested-action:hover  { filter: brightness(1.1); }
+button.destructive-action { background-color: @error_color; color: white; border-color: transparent; }
+button.destructive-action:hover { filter: brightness(1.08); }
+
+entry {
+    background-color: @view_bg_color;
+    color: @view_fg_color;
+    border: 1.5px solid @border_color;
+    border-radius: 10px;
+    padding: 6px 12px;
+    transition: border-color 150ms ease;
+}
+entry:focus-within { border-color: @accent_color; }
+entry placeholder  { color: @dim_label_color; }
+
+listbox, listview { background-color: transparent; }
+listbox > row, listview > row {
+    padding: 8px 14px; border-radius: 0;
+    transition: background-color 120ms ease;
+}
+listbox > row:first-child, listview > row:first-child { border-radius: 14px 14px 0 0; }
+listbox > row:last-child,  listview > row:last-child  { border-radius: 0 0 14px 14px; }
+listbox > row:only-child,  listview > row:only-child  { border-radius: 14px; }
+listbox > row:hover,       listview > row:hover       { background-color: alpha(@window_fg_color, 0.07); }
+listbox > row:selected,    listview > row:selected    { background-color: alpha(@accent_color, 0.20); }
+
+popover > contents {
+    background-color: @popover_bg_color;
+    border: 1px solid @border_color;
+    border-radius: 14px;
+    padding: 6px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+}
+popover > contents modelbutton { padding: 7px 12px; border-radius: 10px; color: @popover_fg_color; }
+popover > contents modelbutton:hover { background: alpha(@window_fg_color, 0.08); }
+
+switch {
+    background-color: alpha(@window_fg_color, 0.20);
+    border-radius: 999px; min-width: 46px; min-height: 26px;
+    transition: background-color 200ms ease;
+}
+switch:checked { background-color: @accent_color; }
+switch slider  {
+    background-color: white; border-radius: 999px;
+    margin: 3px; min-width: 20px; min-height: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.35);
+}
+
+checkbutton > check {
+    background-color: @view_bg_color;
+    border: 1.5px solid alpha(@window_fg_color, 0.35);
+    border-radius: 6px; min-width: 18px; min-height: 18px;
+    transition: background-color 150ms ease, border-color 150ms ease;
+}
+radiobutton > radio {
+    background-color: @view_bg_color;
+    border: 1.5px solid alpha(@window_fg_color, 0.35);
+    border-radius: 999px; min-width: 18px; min-height: 18px;
+}
+checkbutton > check:checked, radiobutton > radio:checked {
+    background-color: @accent_color; border-color: @accent_color; color: white;
+}
+checkbutton:disabled, radiobutton:disabled { opacity: 0.45; }
+
+scale trough {
+    background-color: alpha(@window_fg_color, 0.12);
+    border-radius: 999px; min-height: 6px;
+}
+scale trough highlight { background-color: @accent_color; border-radius: 999px; }
+scale slider {
+    background-color: @accent_color; border-radius: 999px;
+    min-width: 20px; min-height: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.40);
+    transition: transform 100ms ease;
+}
+scale slider:hover { transform: scale(1.1); }
+
+scrollbar { background: transparent; }
+scrollbar slider {
+    background-color: alpha(@window_fg_color, 0.28);
+    border-radius: 999px; margin: 2px; min-width: 6px; min-height: 6px;
+    transition: background-color 150ms ease;
+}
+scrollbar slider:hover { background-color: alpha(@accent_color, 0.60); }
+
+notebook > header {
+    background-color: @headerbar_bg_color;
+    border-bottom: 1px solid @border_color;
+}
+notebook > header tab { padding: 8px 16px; border-radius: 10px 10px 0 0; color: @dim_label_color; }
+notebook > header tab:checked { background-color: @window_bg_color; color: @window_fg_color; font-weight: 600; }
+
+progressbar trough { background-color: alpha(@window_fg_color, 0.12); border-radius: 999px; min-height: 6px; }
+progressbar progress { background-color: @accent_color; border-radius: 999px; }
+
+separator { background-color: @border_color; min-height: 1px; min-width: 1px; }
+
+tooltip {
+    background-color: @popover_bg_color; color: @popover_fg_color;
+    border: 1px solid @border_color; border-radius: 10px;
+    padding: 5px 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.40);
+}
+
+label.dim-label, .dim-label { color: @dim_label_color; }
+label:disabled { opacity: 0.5; }
+
+.sidebar { background-color: @sidebar_bg_color; }
+.sidebar listbox > row { border-radius: 10px; margin: 2px 4px; }
+.sidebar listbox > row:selected { background-color: alpha(@accent_color, 0.20); }
+
+spinbutton { border-radius: 10px; }
+
+menu, .menu, .context-menu {
+    background-color: @popover_bg_color; color: @popover_fg_color;
+    border: 1px solid @border_color; border-radius: 14px;
+    padding: 4px; box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+}
+menuitem { padding: 7px 12px; border-radius: 10px; }
+menuitem:hover { background-color: alpha(@accent_color, 0.18); }
+menuitem:disabled { opacity: 0.40; }
+separator.menuitem { min-height: 1px; background-color: @border_color; margin: 3px 0; }

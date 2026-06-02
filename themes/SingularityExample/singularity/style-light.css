@@ -1,0 +1,9 @@
+/**
+ * SingularityExample - light mode variant
+ *
+ * Loaded at priority 606 (above style.css at 605) when the user switches
+ * to light mode. Override colors or layout rules here for light mode.
+ */
+
+/* Example: softer borders in light mode */
+/* .singularity window { border-color: alpha(@text_color, 0.08); } */

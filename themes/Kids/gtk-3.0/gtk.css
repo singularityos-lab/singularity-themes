@@ -1,0 +1,154 @@
+/**
+ * Kids - GTK3 theme
+ *
+ * Rounded, friendly dark theme for GTK3 apps. Neutral dark grays;
+ * accent colour provided by the system.
+ */
+
+@define-color theme_bg_color          #242424;
+@define-color theme_fg_color          #ffffff;
+@define-color theme_base_color        #2a2a2a;
+@define-color theme_text_color        #ffffff;
+@define-color theme_selected_bg_color @accent_color;
+@define-color theme_selected_fg_color #ffffff;
+@define-color insensitive_bg_color    alpha(#2a2a2a, 0.55);
+@define-color insensitive_fg_color    rgba(255,255,255,0.40);
+@define-color theme_button_bg         rgba(255,255,255,0.08);
+@define-color border_color            rgba(255,255,255,0.09);
+@define-color dim_fg                  rgba(255,255,255,0.55);
+
+/* ── Reset ──────────────────────────────────────────────────── */
+* {
+    -gtk-icon-shadow: none;
+    outline-color: alpha(@theme_selected_bg_color, 0.5);
+    outline-offset: -3px;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+.background { background-color: @theme_bg_color; color: @theme_fg_color; }
+GtkWindow, window { background-color: @theme_bg_color; color: @theme_fg_color; }
+
+/* ── Header bar ─────────────────────────────────────────────── */
+headerbar, .titlebar, .header-bar {
+    background-color: #2e2e2e;
+    color: @theme_fg_color;
+    border-bottom: 1px solid @border_color;
+    padding: 5px 8px;
+}
+headerbar .title { font-weight: 600; }
+headerbar .subtitle { font-size: 0.85em; color: @dim_fg; }
+
+/* ── Buttons ────────────────────────────────────────────────── */
+button, .button {
+    background-color: @theme_button_bg;
+    color: @theme_fg_color;
+    border: 1px solid @border_color;
+    border-radius: 999px;
+    padding: 6px 14px;
+    transition: background-color 150ms ease;
+}
+button:hover, .button:hover { background-color: alpha(@theme_fg_color, 0.14); }
+button:active, .button:active { background-color: alpha(@theme_selected_bg_color, 0.24); }
+button:insensitive, .button:insensitive { opacity: 0.40; }
+button.flat, button.image-button { background: transparent; border-color: transparent; border-radius: 10px; }
+button.flat:hover, button.image-button:hover { background: alpha(@theme_fg_color, 0.09); }
+.suggested-action { background-color: @theme_selected_bg_color; color: white; border-color: transparent; font-weight: 600; }
+.suggested-action:hover { background-color: mix(white, @theme_selected_bg_color, 0.12); }
+.destructive-action { background-color: #e01b24; color: white; border-color: transparent; }
+
+/* ── Entries ────────────────────────────────────────────────── */
+entry, .entry, GtkEntry {
+    background-color: @theme_base_color;
+    color: @theme_text_color;
+    border: 1.5px solid @border_color;
+    border-radius: 10px;
+    padding: 6px 10px;
+    transition: border-color 150ms ease;
+}
+entry:focus, .entry:focus { border-color: @theme_selected_bg_color; }
+entry:insensitive { opacity: 0.40; }
+
+/* ── Labels ─────────────────────────────────────────────────── */
+label, GtkLabel { color: @theme_fg_color; }
+label.dim-label { color: @dim_fg; }
+
+/* ── Lists ──────────────────────────────────────────────────── */
+treeview, GtkTreeView {
+    background-color: @theme_base_color;
+    color: @theme_text_color;
+}
+treeview:selected, row:selected {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+}
+treeview header button { background-color: #2e2e2e; border-radius: 0; border-bottom: 1px solid @border_color; }
+row { padding: 6px 10px; transition: background-color 120ms ease; }
+row:hover { background-color: alpha(@theme_fg_color, 0.06); }
+
+/* ── Notebook ───────────────────────────────────────────────── */
+notebook > header { background-color: #2e2e2e; border-bottom: 1px solid @border_color; }
+notebook > header > tabs > tab { padding: 7px 14px; border-radius: 10px 10px 0 0; color: @dim_fg; }
+notebook > header > tabs > tab:checked { background-color: @theme_bg_color; color: @theme_fg_color; font-weight: 600; }
+
+/* ── Scrollbars ─────────────────────────────────────────────── */
+scrollbar { background: transparent; }
+scrollbar.vertical slider, scrollbar.horizontal slider {
+    background-color: alpha(@theme_fg_color, 0.28);
+    border-radius: 999px; min-width: 6px; min-height: 6px; margin: 2px;
+}
+scrollbar.vertical slider:hover, scrollbar.horizontal slider:hover {
+    background-color: alpha(@theme_selected_bg_color, 0.60);
+}
+
+/* ── Scale ──────────────────────────────────────────────────── */
+scale trough { background-color: alpha(@theme_fg_color, 0.12); border-radius: 999px; min-height: 6px; }
+scale highlight { background-color: @theme_selected_bg_color; border-radius: 999px; }
+scale slider { background-color: @theme_selected_bg_color; border-radius: 999px; min-width: 18px; min-height: 18px; }
+
+/* ── Check & Radio ──────────────────────────────────────────── */
+checkbutton check { background-color: @theme_base_color; border: 2px solid alpha(@theme_fg_color, 0.35); border-radius: 6px; min-width: 16px; min-height: 16px; }
+radiobutton radio { background-color: @theme_base_color; border: 2px solid alpha(@theme_fg_color, 0.35); border-radius: 999px; min-width: 16px; min-height: 16px; }
+checkbutton check:checked, radiobutton radio:checked { background-color: @theme_selected_bg_color; border-color: @theme_selected_bg_color; }
+
+/* ── Progressbar ────────────────────────────────────────────── */
+progressbar trough { background-color: alpha(@theme_fg_color, 0.12); border-radius: 999px; }
+progressbar progress { background-color: @theme_selected_bg_color; border-radius: 999px; }
+
+/* ── Menus ──────────────────────────────────────────────────── */
+menu, .menu, .context-menu {
+    background-color: #303030; color: @theme_fg_color;
+    border: 1px solid @border_color; border-radius: 14px;
+    padding: 4px; box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+}
+menuitem { padding: 7px 12px; border-radius: 10px; }
+menuitem:hover { background-color: alpha(@theme_selected_bg_color, 0.20); }
+menuitem:disabled { opacity: 0.40; }
+separator.menuitem { min-height: 1px; background-color: @border_color; margin: 3px 0; }
+
+/* ── Toolbar ────────────────────────────────────────────────── */
+toolbar { background-color: #2e2e2e; border-bottom: 1px solid @border_color; padding: 4px; }
+
+/* ── Popovers ───────────────────────────────────────────────── */
+popover { background-color: #303030; color: @theme_fg_color; border: 1px solid @border_color; border-radius: 14px; padding: 4px; box-shadow: 0 8px 28px rgba(0,0,0,0.45); }
+
+/* ── Tooltips ───────────────────────────────────────────────── */
+tooltip, .tooltip { background-color: #303030; color: @theme_fg_color; border: 1px solid @border_color; border-radius: 10px; padding: 5px 10px; }
+
+/* ── Frame & separator ──────────────────────────────────────── */
+frame { border-color: @border_color; border-radius: 10px; }
+separator { background-color: @border_color; }
+
+/* ── Switch ─────────────────────────────────────────────────── */
+GtkSwitch, switch {
+    background-color: alpha(@theme_fg_color, 0.20);
+    border-radius: 999px; color: @theme_fg_color;
+}
+GtkSwitch:active, switch:active, switch:checked { background-color: @theme_selected_bg_color; }
+GtkSwitch slider, switch slider { background-color: white; border-radius: 999px; }
+
+/* ── Paned ──────────────────────────────────────────────────── */
+paned > separator { background-color: @border_color; min-width: 1px; min-height: 1px; }
+
+/* ── Combobox ───────────────────────────────────────────────── */
+combobox button { border-radius: 10px; }

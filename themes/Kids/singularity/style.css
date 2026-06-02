@@ -1,0 +1,75 @@
+/**
+ * Kids - Singularity theme
+ *
+ * A friendly, rounded theme. Colours follow the user's accent and the
+ * system dark/light preference - exactly as the default theme. Only shapes
+ * differ: rounder corners on buttons, cards, popovers, dock, and sidebar.
+ */
+
+/* ── Window ──────────────────────────────────────────────────── */
+.singularity window.csd             { border-radius: 16px 16px 0 0; }
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+.singularity button                 { border-radius: 999px; padding: 6px 16px; }
+.singularity button.flat            { border-radius: 10px; }
+.singularity button.circular        { border-radius: 999px; }
+
+/* ── Entries ─────────────────────────────────────────────────── */
+.singularity entry,
+.singularity searchbar entry        { border-radius: 10px; }
+
+/* ── Tabs ────────────────────────────────────────────────────── */
+.singularity .tab                   { border-radius: 10px 10px 0 0; }
+
+/* ── Sidebar items ───────────────────────────────────────────── */
+.sidebar-item                       { border-radius: 10px; }
+
+/* ── Cards / preference groups ───────────────────────────────── */
+.preferences-group                  { border-radius: 16px; }
+.preferences-row:first-child        { border-radius: 16px 16px 0 0; }
+.preferences-row:last-child         { border-radius: 0 0 16px 16px; }
+.preferences-row:only-child         { border-radius: 16px; }
+
+/* ── Boxed list ──────────────────────────────────────────────── */
+.boxed-list                         { border-radius: 16px; }
+.boxed-list > row:first-child       { border-radius: 16px 16px 0 0; }
+.boxed-list > row:last-child        { border-radius: 0 0 16px 16px; }
+.boxed-list > row:only-child        { border-radius: 16px; }
+
+/* ── Popovers ────────────────────────────────────────────────── */
+.singularity popover,
+popover.background                  { border-radius: 16px; }
+
+/* ── Quick-setting tiles ─────────────────────────────────────── */
+.quick-setting-tile                 { border-radius: 14px 0 0 14px; }
+
+/* ── Dock ────────────────────────────────────────────────────── */
+.dock-box                           { border-radius: 20px; }
+.dock-item                          { border-radius: 14px; }
+
+/* ── Workspace preview ───────────────────────────────────────── */
+.workspace-preview                  { border-radius: 12px; }
+
+/* ── App item (launcher / overview) ─────────────────────────── */
+.app-item                           { border-radius: 14px; }
+
+/* ── Notifications ───────────────────────────────────────────── */
+.notification-item,
+.notification-row                   { border-radius: 14px; }
+
+/* ── OSD ─────────────────────────────────────────────────────── */
+.osd                                { border-radius: 16px; }
+
+/* ── Dialog ──────────────────────────────────────────────────── */
+.singularity dialog                 { border-radius: 20px; }
+
+/* ── DropDown / ComboBox ─────────────────────────────────────── */
+.singularity dropdown > button,
+.singularity combobox > .linked > button { border-radius: 10px; }
+
+/* ── SpinButton ──────────────────────────────────────────────── */
+.singularity spinbutton             { border-radius: 10px; }
+
+/* ── Tooltip ─────────────────────────────────────────────────── */
+.singularity tooltip,
+tooltip                             { border-radius: 10px; }
