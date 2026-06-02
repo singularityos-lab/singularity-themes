@@ -5,7 +5,7 @@ install_subdir('themes/Singularity',
   install_dir: get_option('datadir') / 'themes',
   strip_directory: false)
 
-# Icon theme.
-install_subdir('Singularity-Material',
+# Icon theme (a brand seam that currently inherits Adwaita).
+install_subdir('Singularity',
   install_dir: get_option('datadir') / 'icons',
   strip_directory: false)

@@ -1,6 +1,6 @@
 [Icon Theme]
-Name=Singularity-Material
-Comment=Material Design icons for Singularity Desktop
+Name=Singularity
+Comment=Icon theme for the Singularity Desktop (inherits Adwaita)
 Inherits=Adwaita,hicolor
 Directories=scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/mimetypes,scalable/places,scalable/status,scalable/intl
 
