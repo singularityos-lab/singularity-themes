@@ -2,9 +2,10 @@
 
 GTK and icon themes for the Singularity Desktop Environment.
 
-- `themes/Singularity` - the GTK theme (installed to `share/themes/`)
+- `themes/Singularity` - the default GTK theme (installed to `share/themes/`)
+- `themes/Kids` - a playful theme, installed by default (`share/themes/`)
 - `Singularity` - the icon theme (installed to `share/icons/`, inherits Adwaita)
-- `themes/Kids`, `themes/SingularityExample` - example themes, not installed
+- `themes/SingularityExample` - a reference theme for authors, not installed
 
 ## License
 
