@@ -1,4 +1,0 @@
-/* Singularity GTK3 theme - intentionally empty.
- * Singularity apps use GTK4; this file exists so gtk-theme = "Singularity"
- * doesn't fall back to Adwaita for GTK3 apps running in the session.
- */

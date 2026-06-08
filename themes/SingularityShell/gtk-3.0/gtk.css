@@ -1,0 +1,6 @@
+/* SingularityShell GTK3 theme - intentionally empty.
+ * Singularity's own shell and apps pin this theme so the theme layer
+ * contributes nothing: all styling comes from libsingularity's style.css,
+ * loaded at PRIORITY_USER. Third-party apps use the full "Singularity" theme
+ * instead. Keep this empty.
+ */

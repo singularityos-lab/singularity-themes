@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=SingularityShell
+Comment=Empty seam theme for first-party Singularity apps; styling comes from libsingularity
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=SingularityShell
+IconTheme=Singularity
+CursorTheme=Adwaita
