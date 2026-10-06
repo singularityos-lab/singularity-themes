@@ -1,0 +1,45 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="in_box" x1="30" y1="104" x2="206" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f6c98a"/><stop offset="0.55" stop-color="#e3a65c"/><stop offset="1" stop-color="#c7823c"/></linearGradient>
+<linearGradient id="in_top" x1="64" y1="34" x2="172" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f9d59e"/><stop offset="0.55" stop-color="#e9b068"/><stop offset="1" stop-color="#cf8b44"/></linearGradient>
+<linearGradient id="in_side" x1="0" y1="190" x2="0" y2="224" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a8652c"/><stop offset="1" stop-color="#7c451b"/></linearGradient>
+<linearGradient id="in_side_top" x1="0" y1="88" x2="0" y2="112" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b06b30"/><stop offset="1" stop-color="#85491d"/></linearGradient>
+<linearGradient id="in_tape" x1="0" y1="104" x2="0" y2="214" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff1d6"/><stop offset="1" stop-color="#f1d3a2"/></linearGradient>
+<radialGradient id="in_bloom" cx="70" cy="60" r="180" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.42"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+<clipPath id="in_clip_box"><rect x="28" y="104" width="180" height="108" rx="16"/></clipPath>
+<clipPath id="in_clip_top"><rect x="62" y="30" width="112" height="72" rx="14"/></clipPath>
+<filter id="in_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#4c260a" flood-opacity="0.42"/></filter>
+<filter id="in_label_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#7c451b" flood-opacity="0.35"/></filter>
+</defs>
+<g filter="url(#in_shadow)">
+<rect x="28" y="114" width="180" height="108" rx="16" fill="url(#in_side)"/>
+<rect x="28" y="104" width="180" height="108" rx="16" fill="url(#in_box)"/>
+</g>
+<g clip-path="url(#in_clip_box)">
+<rect width="236" height="236" fill="url(#in_bloom)"/>
+<rect x="28" y="104" width="180" height="14" fill="#8c4f20" opacity="0.18"/>
+<rect x="104" y="104" width="28" height="108" fill="url(#in_tape)" opacity="0.9"/>
+</g>
+<rect x="28" y="104" width="180" height="108" rx="16" stroke="white" stroke-opacity="0.55" stroke-width="4" clip-path="url(#in_clip_box)"/>
+<g filter="url(#in_shadow)">
+<rect x="62" y="40" width="112" height="72" rx="14" fill="url(#in_side_top)"/>
+<rect x="62" y="30" width="112" height="72" rx="14" fill="url(#in_top)"/>
+</g>
+<g clip-path="url(#in_clip_top)">
+<rect width="236" height="236" fill="url(#in_bloom)"/>
+<rect x="62" y="30" width="112" height="11" fill="#8c4f20" opacity="0.18"/>
+<rect x="106" y="30" width="24" height="72" fill="url(#in_tape)" opacity="0.9"/>
+</g>
+<rect x="62" y="30" width="112" height="72" rx="14" stroke="white" stroke-opacity="0.55" stroke-width="4" clip-path="url(#in_clip_top)"/>
+<g filter="url(#in_label_shadow)">
+<rect x="144" y="146" width="48" height="46" rx="8" fill="white"/>
+</g>
+<rect x="152" y="154" width="3" height="22" rx="1" fill="#4b3a2a"/>
+<rect x="158" y="154" width="2" height="22" rx="1" fill="#4b3a2a"/>
+<rect x="163" y="154" width="4" height="22" rx="1" fill="#4b3a2a"/>
+<rect x="170" y="154" width="2" height="22" rx="1" fill="#4b3a2a"/>
+<rect x="175" y="154" width="3" height="22" rx="1" fill="#4b3a2a"/>
+<rect x="181" y="154" width="3" height="22" rx="1" fill="#4b3a2a"/>
+<rect x="152" y="181" width="32" height="4" rx="2" fill="#c7823c"/>
+<path d="M46 136L60 136M46 146L72 146" stroke="#8c4f20" stroke-opacity="0.45" stroke-width="5" stroke-linecap="round"/>
+</svg>

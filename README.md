@@ -9,6 +9,7 @@ GTK and icon themes for the Singularity Desktop Environment.
 - `themes/Singularity` - the default GTK theme (installed to `share/themes/`)
 - `themes/Kids` - a playful theme, installed by default (`share/themes/`)
 - `Singularity` - the icon theme (installed to `share/icons/`, inherits Adwaita)
+- `Singularity-<accent>` - hidden per-accent variants with the folder icons in each accent colour, generated at install time by `tools/accent-icons.py`
 - `themes/SingularityExample` - a reference theme for authors, not installed
 
 ## Build & Install

@@ -1,0 +1,23 @@
+<svg width="236" height="236" viewBox="0 0 236 236" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="lk_ring" x1="0" y1="62" x2="0" y2="174" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7cc2ff"/><stop offset="0.55" stop-color="#3f8ef0"/><stop offset="1" stop-color="#2463d0"/></linearGradient>
+<linearGradient id="lk_side" x1="0" y1="62" x2="0" y2="174" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1f56b8"/><stop offset="1" stop-color="#153f8c"/></linearGradient>
+<radialGradient id="lk_bloom" cx="60" cy="90" r="120" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.45"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+<clipPath id="lk_cross"><circle cx="118" cy="99" r="26"/></clipPath>
+<filter id="lk_shadow" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0a1f52" flood-opacity="0.42"/></filter>
+<filter id="lk_lift" x="-20" y="-20" width="276" height="276" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#123a80" flood-opacity="0.45"/></filter>
+<g id="lk_a"><rect x="32" y="86" width="92" height="64" rx="32" stroke="url(#lk_ring)" stroke-width="24"/><rect x="32" y="86" width="92" height="64" rx="32" stroke="url(#lk_bloom)" stroke-width="24"/><rect x="21" y="75" width="114" height="86" rx="43" stroke="white" stroke-opacity="0.3" stroke-width="2"/></g>
+<g id="lk_b"><rect x="112" y="86" width="92" height="64" rx="32" stroke="url(#lk_ring)" stroke-width="24"/><rect x="112" y="86" width="92" height="64" rx="32" stroke="url(#lk_bloom)" stroke-width="24"/><rect x="101" y="75" width="114" height="86" rx="43" stroke="white" stroke-opacity="0.3" stroke-width="2"/></g>
+</defs>
+<g filter="url(#lk_shadow)">
+<g transform="translate(0 9) rotate(-45 118 118)">
+<rect x="32" y="86" width="92" height="64" rx="32" stroke="url(#lk_side)" stroke-width="24"/>
+<rect x="112" y="86" width="92" height="64" rx="32" stroke="url(#lk_side)" stroke-width="24"/>
+</g>
+<g transform="rotate(-45 118 118)"><use href="#lk_a"/></g>
+</g>
+<g transform="rotate(-45 118 118)">
+<g filter="url(#lk_lift)"><use href="#lk_b"/></g>
+<g clip-path="url(#lk_cross)"><use href="#lk_a"/></g>
+</g>
+</svg>

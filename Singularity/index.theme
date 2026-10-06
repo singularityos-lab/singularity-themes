@@ -2,7 +2,7 @@
 Name=Singularity
 Comment=Icon theme for the Singularity Desktop (inherits Adwaita)
 Inherits=Adwaita,gnome,breeze,breeze-dark,oxygen,hicolor
-Directories=scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/mimetypes,scalable/places,scalable/status,scalable/intl
+Directories=scalable/actions,scalable/apps,scalable/categories,scalable/devices,scalable/emblems,scalable/emotes,scalable/legacy,scalable/mimetypes,scalable/places,scalable/status,scalable/ui
 
 [scalable/actions]
 Context=Actions
@@ -39,6 +39,20 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
+[scalable/emotes]
+Context=Emotes
+Size=16
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+[scalable/legacy]
+Context=Legacy
+Size=16
+MinSize=8
+MaxSize=512
+Type=Scalable
+
 [scalable/mimetypes]
 Context=MimeTypes
 Size=16
@@ -60,8 +74,8 @@ MinSize=8
 MaxSize=512
 Type=Scalable
 
-[scalable/intl]
-Context=International
+[scalable/ui]
+Context=UI
 Size=16
 MinSize=8
 MaxSize=512

@@ -1,0 +1,36 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="cd_paper" x1="50" y1="16" x2="50" y2="96" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e9edf2"/></linearGradient>
+<linearGradient id="cd_head" x1="50" y1="16" x2="50" y2="40" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f76a5f"/><stop offset="1" stop-color="#d8392f"/></linearGradient>
+<linearGradient id="cd_card" x1="84" y1="58" x2="84" y2="112" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4fd6b4"/><stop offset="1" stop-color="#139a7e"/></linearGradient>
+<linearGradient id="cd_ring" x1="100" y1="14" x2="100" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6aa5ff"/><stop offset="1" stop-color="#2566d6"/></linearGradient>
+<clipPath id="cd_cal_clip"><rect x="12" y="16" width="76" height="78" rx="11"/></clipPath>
+<filter id="cd_sh" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#141a24" flood-opacity="0.4"/></filter>
+<filter id="cd_lift" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#0b2a24" flood-opacity="0.45"/></filter>
+</defs>
+<g filter="url(#cd_sh)">
+<rect x="12" y="16" width="76" height="78" rx="11" fill="url(#cd_paper)"/>
+<g clip-path="url(#cd_cal_clip)"><rect x="12" y="16" width="76" height="24" fill="url(#cd_head)"/></g>
+<rect x="30" y="24" width="40" height="8" rx="4" fill="white" fill-opacity="0.92"/>
+<g fill="#d5dbe3"><rect x="22" y="48" width="14" height="11" rx="4"/><rect x="42" y="48" width="14" height="11" rx="4"/><rect x="22" y="65" width="14" height="11" rx="4"/></g>
+<rect x="62" y="48" width="14" height="11" rx="4" fill="#e5433a"/>
+<g filter="url(#cd_lift)">
+<rect x="50" y="58" width="66" height="52" rx="11" fill="url(#cd_card)"/>
+<circle cx="70" cy="80" r="9" fill="white"/>
+<path d="M57 102 C57 94 63 91 70 91 C77 91 83 94 83 102 Z" fill="white"/>
+<rect x="88" y="74" width="20" height="6" rx="3" fill="white"/>
+<rect x="88" y="86" width="14" height="5" rx="2.5" fill="white" fill-opacity="0.7"/>
+</g>
+</g>
+<g filter="url(#cd_lift)">
+<circle cx="102" cy="30" r="17" fill="url(#cd_ring)"/>
+<g transform="translate(102 30) scale(0.72) translate(-64 -73)">
+<path d="M50.9 67.6 A15 15 0 0 1 77.2 63.3" stroke="white" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M83.9 71.9 L83.5 58.7 L71.6 64.4 Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+<g transform="rotate(180 64 73)">
+<path d="M50.9 67.6 A15 15 0 0 1 77.2 63.3" stroke="white" stroke-width="6.5" stroke-linecap="round"/>
+<path d="M83.9 71.9 L83.5 58.7 L71.6 64.4 Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>
