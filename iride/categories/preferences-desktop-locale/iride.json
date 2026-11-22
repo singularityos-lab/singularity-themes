@@ -1,0 +1,117 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "first"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "first"
+  },
+  {
+   "rim": "M9,4L35,4A6,6 0 0 1 41,10L41,28A6,6 0 0 1 35,34L18,34L9,42L9,34A6,6 0 0 1 3,28L3,10A6,6 0 0 1 9,4Z",
+   "light": [
+    3,
+    4,
+    41,
+    42
+   ],
+   "piece": "first"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "first"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "reply"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "reply"
+  },
+  {
+   "rim": "M29,24L55,24A6,6 0 0 1 61,30L61,48A6,6 0 0 1 55,54L55,61L46,54L29,54A6,6 0 0 1 23,48L23,30A6,6 0 0 1 29,24Z",
+   "light": [
+    23,
+    24,
+    61,
+    61
+   ],
+   "piece": "reply"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "reply"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "first",
+   "origin": [
+    10,
+    40
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.12,
+      0.12
+     ],
+     "at": 0,
+     "duration": 300,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 80,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "reply",
+   "origin": [
+    55,
+    59
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.12,
+      0.12
+     ],
+     "at": 310,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 310,
+     "duration": 80,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

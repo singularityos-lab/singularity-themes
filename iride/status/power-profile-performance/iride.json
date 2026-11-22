@@ -1,0 +1,109 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "dial"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "dial"
+  },
+  {
+   "rim": "M11,55C6,50 3,43 3,35A29,29 0 0 1 61,35C61,43 58,50 53,55Z",
+   "light": [
+    3,
+    6,
+    61,
+    55
+   ],
+   "piece": "dial"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "dial"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "dial"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "dial"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "needle"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "hub"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "dial",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "needle",
+   "origin": [
+    32,
+    39
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -160
+     ],
+     "at": 60,
+     "duration": 640,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "hub",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

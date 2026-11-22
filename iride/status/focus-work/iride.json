@@ -1,0 +1,104 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "handle"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "case"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "case"
+  },
+  {
+   "rim": "M11,20L53,20A7,7 0 0 1 60,27L60,50A7,7 0 0 1 53,57L11,57A7,7 0 0 1 4,50L4,27A7,7 0 0 1 11,20Z",
+   "light": [
+    4,
+    20,
+    60,
+    57
+   ],
+   "piece": "case"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "case"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "clasp"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "handle",
+   "origin": [
+    32,
+    23
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.15
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "case",
+   "origin": [
+    32,
+    57
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      4
+     ],
+     "at": 200,
+     "duration": 420,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "clasp",
+   "origin": [
+    32,
+    33
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.2
+     ],
+     "at": 420,
+     "duration": 300,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

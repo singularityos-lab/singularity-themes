@@ -1,0 +1,91 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "up"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "up"
+  },
+  {
+   "rim": "M19,4L33,22L25,22L25,50A6,6 0 0 1 13,50L13,22L5,22Z",
+   "light": [
+    5,
+    4,
+    33,
+    56
+   ],
+   "piece": "up"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "down"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "down"
+  },
+  {
+   "rim": "M45,60L31,42L39,42L39,14A6,6 0 0 1 51,14L51,42L59,42Z",
+   "light": [
+    31,
+    8,
+    59,
+    60
+   ],
+   "piece": "down"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "up",
+   "origin": [
+    19,
+    30
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      16
+     ],
+     "at": 0,
+     "duration": 520,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "down",
+   "origin": [
+    45,
+    34
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -16
+     ],
+     "at": 130,
+     "duration": 520,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

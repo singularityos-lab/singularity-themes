@@ -1,0 +1,108 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "lens"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "lens"
+  },
+  {
+   "rim": "M4,32A28,28 0 1 1 60,32A28,28 0 1 1 4,32Z",
+   "light": [
+    4,
+    4,
+    60,
+    60
+   ],
+   "piece": "lens"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "ring"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "dot"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "lens",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "ring",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 0,
+     "duration": 480,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 120,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "dot",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.2,
+      0.2
+     ],
+     "at": 360,
+     "duration": 300,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

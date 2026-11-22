@@ -1,0 +1,89 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "person"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "person"
+  },
+  {
+   "rim": "M9,58C9,42 18,35 32,35C46,35 55,42 55,58A3,3 0 0 1 52,61L12,61A3,3 0 0 1 9,58Z",
+   "light": [
+    9,
+    35,
+    55,
+    61
+   ],
+   "piece": "person"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "head"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "head"
+  },
+  {
+   "rim": "M18.5,18A13.5,13.5 0 1 1 45.5,18A13.5,13.5 0 1 1 18.5,18Z",
+   "light": [
+    18,
+    4,
+    46,
+    31
+   ],
+   "piece": "head"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "person",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "head",
+   "origin": [
+    32,
+    31
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -22
+     ],
+     "at": 60,
+     "duration": 600,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}
