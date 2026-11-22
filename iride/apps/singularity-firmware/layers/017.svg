@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><radialGradient id="fw_bloom" cx="44" cy="32" r="70" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="white" stop-opacity="0.4" /><stop offset="1" stop-color="white" stop-opacity="0" /></radialGradient>
+<clipPath id="fw_clip"><rect x="24" y="22" width="80" height="80" rx="16" /></clipPath>
+</defs><rect width="128" height="128" fill="url(#fw_bloom)" clip-path="url(#fw_clip)" />
+</svg>

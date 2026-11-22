@@ -1,0 +1,311 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  12,
+  14,
+  116,
+  114
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0b1a3a",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "blue"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "purple"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "orange"
+    }
+   ]
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "light-blue"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "light-purple"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "light-purple"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "bar-blue"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "bar-purple"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "bar-orange"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "blue",
+   "origin": [
+    36.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -6.4,
+      5.12
+     ],
+     "at": 120,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 120,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 600,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "purple",
+   "origin": [
+    92.0,
+    37.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -23.04,
+      15.36
+     ],
+     "at": 260,
+     "duration": 180,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 260,
+     "duration": 180,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "orange",
+   "origin": [
+    92.0,
+    91.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -12.8,
+      -20.48
+     ],
+     "at": 420,
+     "duration": 180,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 420,
+     "duration": 180,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "light-blue",
+   "origin": [
+    36.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -6.4,
+      5.12
+     ],
+     "at": 120,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 120,
+     "duration": 160,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "light-purple",
+   "origin": [
+    92.0,
+    37.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -23.04,
+      15.36
+     ],
+     "at": 260,
+     "duration": 180,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 260,
+     "duration": 180,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "bar-blue",
+   "origin": [
+    36.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -6.4,
+      5.12
+     ],
+     "at": 120,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 120,
+     "duration": 160,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "bar-purple",
+   "origin": [
+    92.0,
+    37.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -23.04,
+      15.36
+     ],
+     "at": 260,
+     "duration": 180,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 260,
+     "duration": 180,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "bar-orange",
+   "origin": [
+    92.0,
+    91.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -12.8,
+      -20.48
+     ],
+     "at": 420,
+     "duration": 180,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 420,
+     "duration": 180,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

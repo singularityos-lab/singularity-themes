@@ -1,0 +1,315 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0a1f5c",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "dot-back"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "stem-back"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "dot"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "stem"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "light"
+  },
+  {
+   "clip": "M50 24A14 14 0 1 0 78 24A14 14 0 1 0 50 24Z",
+   "stack": [
+    {
+     "rim": "M50 24A14 14 0 1 0 78 24A14 14 0 1 0 50 24Z",
+     "light": [
+      50,
+      10,
+      78,
+      38
+     ],
+     "piece": "edge-dot"
+    }
+   ]
+  },
+  {
+   "clip": "M64 46H64A13 13 0 0 1 77 59V101A13 13 0 0 1 64 114H64A13 13 0 0 1 51 101V59A13 13 0 0 1 64 46Z",
+   "stack": [
+    {
+     "rim": "M64 46H64A13 13 0 0 1 77 59V101A13 13 0 0 1 64 114H64A13 13 0 0 1 51 101V59A13 13 0 0 1 64 46Z",
+     "light": [
+      51,
+      46,
+      77,
+      114
+     ],
+     "piece": "edge-stem"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "dot-back",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -14.72
+     ],
+     "at": 0,
+     "duration": 220,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      12.16
+     ],
+     "at": 220,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 340,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 560,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "stem-back",
+   "origin": [
+    64.0,
+    114.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.86,
+      1.16
+     ],
+     "at": 200,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.14,
+      0.84
+     ],
+     "at": 260,
+     "duration": 120,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "dot",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -14.72
+     ],
+     "at": 0,
+     "duration": 220,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      12.16
+     ],
+     "at": 220,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 340,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "stem",
+   "origin": [
+    64.0,
+    114.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.86,
+      1.16
+     ],
+     "at": 200,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.14,
+      0.84
+     ],
+     "at": 260,
+     "duration": 120,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "light",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 460,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "edge-dot",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -14.72
+     ],
+     "at": 0,
+     "duration": 220,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      12.16
+     ],
+     "at": 220,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 340,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "edge-stem",
+   "origin": [
+    64.0,
+    114.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.86,
+      1.16
+     ],
+     "at": 200,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.14,
+      0.84
+     ],
+     "at": 260,
+     "duration": 120,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

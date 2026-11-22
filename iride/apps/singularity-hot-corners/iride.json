@@ -1,0 +1,177 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  120,
+  110
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0b1a3a",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "screen"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "screen"
+    },
+    {
+     "clip": "M19 24H109A5 5 0 0 1 114 29V85A5 5 0 0 1 109 90H19A5 5 0 0 1 14 85V29A5 5 0 0 1 19 24Z",
+     "stack": [
+      {
+       "layer": "layers/002.svg",
+       "piece": "glow"
+      },
+      {
+       "layer": "layers/003.svg",
+       "piece": "glow"
+      }
+     ]
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "foot"
+    },
+    {
+     "layer": "layers/005.svg",
+     "piece": "foot"
+    }
+   ]
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0b1a3a",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/006.svg",
+     "piece": "pointer"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "screen",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 740,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "glow",
+   "origin": [
+    14.0,
+    24.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.45,
+      -0.45
+     ],
+     "at": 260,
+     "duration": 260,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 520,
+     "duration": 220,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 240,
+     "duration": 50,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "foot",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "pointer",
+   "origin": [
+    28.0,
+    34.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      64.0,
+      47.36
+     ],
+     "at": 0,
+     "duration": 270,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -12.8,
+      -8.96
+     ],
+     "at": 270,
+     "duration": 190,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

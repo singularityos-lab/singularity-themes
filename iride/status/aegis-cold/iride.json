@@ -1,0 +1,177 @@
+{
+ "format": 1,
+ "canvas": [
+  16,
+  16
+ ],
+ "box": [
+  4,
+  2,
+  15,
+  10
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "thermometer"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "thermometer"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "thermometer"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "frost"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "frost"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "frost"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "thermometer",
+   "origin": [
+    5.5,
+    13.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -0.4,
+      0
+     ],
+     "at": 120,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.756,
+      0
+     ],
+     "at": 165,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -0.667,
+      0
+     ],
+     "at": 210,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.578,
+      0
+     ],
+     "at": 255,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -0.489,
+      0
+     ],
+     "at": 300,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.4,
+      0
+     ],
+     "at": 345,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -0.311,
+      0
+     ],
+     "at": 390,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.222,
+      0
+     ],
+     "at": 435,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -0.089,
+      0
+     ],
+     "at": 480,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 700,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "frost",
+   "origin": [
+    12.0,
+    4.5
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -180
+     ],
+     "at": 0,
+     "duration": 700,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.3,
+      0.3
+     ],
+     "at": 0,
+     "duration": 500,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

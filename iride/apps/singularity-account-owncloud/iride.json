@@ -1,0 +1,95 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "archive"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cloud",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.93,
+      0.93
+     ],
+     "at": 360,
+     "duration": 86,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.07,
+      1.07
+     ],
+     "at": 446,
+     "duration": 174,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 620,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "archive",
+   "origin": [
+    64.0,
+    73.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      17.92
+     ],
+     "at": 0,
+     "duration": 420,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

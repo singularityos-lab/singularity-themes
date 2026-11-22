@@ -1,0 +1,81 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  22,
+  12,
+  124,
+  114
+ ],
+ "stack": [
+  {
+   "layer": "layers/sotto.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/sopra.svg",
+   "piece": "mail"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "tower",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 460,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "mail",
+   "origin": [
+    84.0,
+    86.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -35.84,
+      -38.4
+     ],
+     "at": 0,
+     "duration": 460,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.2,
+      0.2
+     ],
+     "at": 0,
+     "duration": 460,
+     "ease": "spring"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -30
+     ],
+     "at": 0,
+     "duration": 460,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

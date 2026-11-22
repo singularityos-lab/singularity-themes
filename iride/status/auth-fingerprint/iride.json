@@ -1,0 +1,79 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  10,
+  3,
+  54,
+  59
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "fingerprint"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "fingerprint"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "fingerprint"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "fingerprint",
+   "origin": [
+    31.5,
+    30.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      64,
+      3.0
+     ],
+     "at": 0,
+     "duration": 577,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.9
+     ],
+     "at": 540,
+     "duration": 86,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.1
+     ],
+     "at": 626,
+     "duration": 174,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 800,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

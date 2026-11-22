@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><linearGradient id="go_avatar" x1="30" y1="62" x2="56" y2="94" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6aa5ff" /><stop offset="1" stop-color="#2566d6" /></linearGradient>
+</defs><circle cx="42" cy="78" r="15" fill="url(#go_avatar)" />
+</svg>

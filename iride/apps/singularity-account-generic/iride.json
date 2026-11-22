@@ -1,0 +1,182 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "person"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cloud",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      4.48,
+      0
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -4.48,
+      0
+     ],
+     "at": 170,
+     "duration": 170,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      4.48,
+      0
+     ],
+     "at": 340,
+     "duration": 100,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -4.48,
+      0
+     ],
+     "at": 440,
+     "duration": 200,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 900,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "person",
+   "origin": [
+    66.0,
+    80.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      61.44,
+      0
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -122.88,
+      0
+     ],
+     "at": 170,
+     "duration": 10,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      61.44,
+      0
+     ],
+     "at": 180,
+     "duration": 160,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      61.44,
+      0
+     ],
+     "at": 420,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -122.88,
+      0
+     ],
+     "at": 530,
+     "duration": 10,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      61.44,
+      0
+     ],
+     "at": 540,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.88,
+      0.88
+     ],
+     "at": 690,
+     "duration": 70,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.12
+     ],
+     "at": 760,
+     "duration": 140,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    28.0,
+    40.0,
+    101.0,
+    99.0
+   ]
+  }
+ ]
+}

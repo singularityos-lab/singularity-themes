@@ -1,0 +1,165 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#1a2438",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "pages"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "pages"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "pages"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "pages"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "pages"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#4c0d08",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "cover"
+    },
+    {
+     "layer": "layers/006.svg",
+     "piece": "cover"
+    }
+   ]
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "cover"
+  },
+  {
+   "clip": "M31 8H89A9 9 0 0 1 98 17V91A9 9 0 0 1 89 100H31A9 9 0 0 1 22 91V17A9 9 0 0 1 31 8Z",
+   "stack": [
+    {
+     "rim": "M31 8H89A9 9 0 0 1 98 17V91A9 9 0 0 1 89 100H31A9 9 0 0 1 22 91V17A9 9 0 0 1 31 8Z",
+     "light": [
+      22,
+      8,
+      98,
+      100
+     ],
+     "piece": "cover"
+    }
+   ]
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "cover"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "cover"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "cover"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "cover"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "cover"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "pages",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 700,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "cover",
+   "origin": [
+    22.0,
+    56.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.92,
+      0.94
+     ],
+     "at": 60,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.08,
+      1.06
+     ],
+     "at": 420,
+     "duration": 280,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "glass"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "glass"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0a1f5c",
+    "opacity": 0.25,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "glass"
+    }
+   ]
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "glass"
+  },
+  {
+   "clip": "M38 22H90C90 48 70 56 70 64C70 72 90 80 90 106H38C38 80 58 72 58 64C58 56 38 48 38 22Z",
+   "stack": [
+    {
+     "layer": "layers/004.svg",
+     "piece": "glass"
+    }
+   ]
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sand-top"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "wire"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "sand-bottom"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0a1f5c",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/008.svg",
+     "piece": "caps"
+    },
+    {
+     "layer": "layers/009.svg",
+     "piece": "caps"
+    },
+    {
+     "layer": "layers/010.svg",
+     "piece": "caps"
+    },
+    {
+     "layer": "layers/011.svg",
+     "piece": "caps"
+    }
+   ]
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "caps"
+  },
+  {
+   "clip": "M32.5 10H95.5A6.5 6.5 0 0 1 102 16.5V16.5A6.5 6.5 0 0 1 95.5 23H32.5A6.5 6.5 0 0 1 26 16.5V16.5A6.5 6.5 0 0 1 32.5 10Z",
+   "stack": [
+    {
+     "rim": "M32.5 10H95.5A6.5 6.5 0 0 1 102 16.5V16.5A6.5 6.5 0 0 1 95.5 23H32.5A6.5 6.5 0 0 1 26 16.5V16.5A6.5 6.5 0 0 1 32.5 10Z",
+     "light": [
+      26,
+      10,
+      102,
+      23
+     ],
+     "piece": "caps"
+    }
+   ]
+  },
+  {
+   "clip": "M32.5 105H95.5A6.5 6.5 0 0 1 102 111.5V111.5A6.5 6.5 0 0 1 95.5 118H32.5A6.5 6.5 0 0 1 26 111.5V111.5A6.5 6.5 0 0 1 32.5 105Z",
+   "stack": [
+    {
+     "rim": "M32.5 105H95.5A6.5 6.5 0 0 1 102 111.5V111.5A6.5 6.5 0 0 1 95.5 118H32.5A6.5 6.5 0 0 1 26 111.5V111.5A6.5 6.5 0 0 1 32.5 105Z",
+     "light": [
+      26,
+      105,
+      102,
+      118
+     ],
+     "piece": "caps"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "glass",
+   "origin": [
+    64.0,
+    65.5
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -180
+     ],
+     "at": 0,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 820,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sand-top",
+   "origin": [
+    64.0,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 330,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.2,
+      1.2
+     ],
+     "at": 380,
+     "duration": 440,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wire",
+   "origin": [
+    64.0,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.001
+     ],
+     "at": 380,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 330,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sand-bottom",
+   "origin": [
+    64.0,
+    104.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 330,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.2
+     ],
+     "at": 380,
+     "duration": 440,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "caps",
+   "origin": [
+    64.0,
+    65.5
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -180
+     ],
+     "at": 0,
+     "duration": 380,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

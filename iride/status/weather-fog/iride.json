@@ -1,0 +1,128 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  60,
+  61
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cloud"
+  },
+  {
+   "clip": "M18,33.4 C10,33.4 5.73,28.07 6.27,22.2 C6.8,16.33 11.6,12.6 17.47,13.13 C18.53,6.73 24.4,2.47 31.33,3.53 C36.67,4.33 40.4,7.8 42,12.07 C44.13,11 46.8,10.73 49.47,11.53 C55.87,13.13 59.07,19 57.47,24.87 C56.13,30.2 52.13,33.4 46.27,33.4 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "cloud"
+    }
+   ]
+  },
+  {
+   "rim": "M18,33.4 C10,33.4 5.73,28.07 6.27,22.2 C6.8,16.33 11.6,12.6 17.47,13.13 C18.53,6.73 24.4,2.47 31.33,3.53 C36.67,4.33 40.4,7.8 42,12.07 C44.13,11 46.8,10.73 49.47,11.53 C55.87,13.13 59.07,19 57.47,24.87 C56.13,30.2 52.13,33.4 46.27,33.4 Z",
+   "light": [
+    5.7,
+    2.5,
+    59.1,
+    33.4
+   ],
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "fog"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "fog"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cloud",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -3.84,
+      0
+     ],
+     "at": 0,
+     "duration": 700,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 760,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "fog",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -9.6,
+      0
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      6.4,
+      0
+     ],
+     "at": 260,
+     "duration": 260,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -2.56,
+      0
+     ],
+     "at": 520,
+     "duration": 240,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.2
+     ],
+     "at": 0,
+     "duration": 300,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

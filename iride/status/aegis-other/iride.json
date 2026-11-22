@@ -1,0 +1,110 @@
+{
+ "format": 1,
+ "canvas": [
+  16,
+  16
+ ],
+ "box": [
+  0,
+  1,
+  16,
+  15
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sign"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sign"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sign"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sign",
+   "origin": [
+    8.0,
+    14.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -13.0
+     ],
+     "at": 0,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      24.14286
+     ],
+     "at": 80,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -20.42857
+     ],
+     "at": 160,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      16.71429
+     ],
+     "at": 240,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -13.0
+     ],
+     "at": 320,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      9.28571
+     ],
+     "at": 400,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -3.71429
+     ],
+     "at": 480,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 560,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

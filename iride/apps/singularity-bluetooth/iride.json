@@ -1,0 +1,158 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0b2152",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "mark"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "mark"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "mark"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "mark",
+   "origin": [
+    63.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.84,
+      0.84
+     ],
+     "at": 0,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.16,
+      1.16
+     ],
+     "at": 100,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.84,
+      0.84
+     ],
+     "at": 210,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.16,
+      1.16
+     ],
+     "at": 310,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -9.0
+     ],
+     "at": 480,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      16.5
+     ],
+     "at": 550,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -13.5
+     ],
+     "at": 620,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      10.5
+     ],
+     "at": 690,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -7.5
+     ],
+     "at": 760,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      3.0
+     ],
+     "at": 830,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 900,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

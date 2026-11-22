@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><linearGradient id="cd_ring" x1="100" y1="14" x2="100" y2="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6aa5ff" /><stop offset="1" stop-color="#2566d6" /></linearGradient>
+<filter id="cd_lift" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#0b2a24" flood-opacity="0.45" /></filter>
+</defs><g filter="url(#cd_lift)">
+<circle cx="102" cy="30" r="17" fill="url(#cd_ring)" />
+<g transform="translate(102 30) scale(0.72) translate(-64 -73)">
+<path d="M50.9 67.6 A15 15 0 0 1 77.2 63.3" stroke="white" stroke-width="6.5" stroke-linecap="round" />
+<path d="M83.9 71.9 L83.5 58.7 L71.6 64.4 Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round" />
+<g transform="rotate(180 64 73)">
+<path d="M50.9 67.6 A15 15 0 0 1 77.2 63.3" stroke="white" stroke-width="6.5" stroke-linecap="round" />
+<path d="M83.9 71.9 L83.5 58.7 L71.6 64.4 Z" fill="white" stroke="white" stroke-width="2" stroke-linejoin="round" />
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,75 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  7,
+  19,
+  47,
+  48
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "wind"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "wind"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "wind",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      6.0,
+      64
+     ],
+     "at": 0,
+     "duration": 674,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -8.96,
+      0
+     ],
+     "at": 0,
+     "duration": 420,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      2.56,
+      0
+     ],
+     "at": 420,
+     "duration": 280,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 700,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2,
+    "blur": 2.4,
+    "color": "#2e0f66",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "viewfinder"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "viewfinder"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "viewfinder"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#1a2438",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "photo"
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "photo"
+    }
+   ]
+  },
+  {
+   "clip": "M35 44H93A5 5 0 0 1 98 49V87A5 5 0 0 1 93 92H35A5 5 0 0 1 30 87V49A5 5 0 0 1 35 44Z",
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "photo"
+    },
+    {
+     "layer": "layers/006.svg",
+     "piece": "photo"
+    },
+    {
+     "layer": "layers/007.svg",
+     "piece": "photo"
+    },
+    {
+     "layer": "layers/008.svg",
+     "piece": "photo"
+    }
+   ]
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "photo"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "photo"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "photo"
+  },
+  {
+   "clip": "M35 32H93A9 9 0 0 1 102 41V87A9 9 0 0 1 93 96H35A9 9 0 0 1 26 87V41A9 9 0 0 1 35 32Z",
+   "stack": [
+    {
+     "rim": "M35 32H93A9 9 0 0 1 102 41V87A9 9 0 0 1 93 96H35A9 9 0 0 1 26 87V41A9 9 0 0 1 35 32Z",
+     "light": [
+      26,
+      32,
+      102,
+      96
+     ],
+     "piece": "photo"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "viewfinder",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.17,
+      1.17
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      0.92
+     ],
+     "at": 260,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 460,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "photo",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 260,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 310,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.08,
+      1.08
+     ],
+     "at": 260,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      0.92
+     ],
+     "at": 326,
+     "duration": 134,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><linearGradient id="ms_play" x1="70" y1="66" x2="118" y2="114" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff9a7a" /><stop offset="0.55" stop-color="#f2554a" /><stop offset="1" stop-color="#c22c35" /></linearGradient>
+<filter id="ms_lift" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#4a0b12" flood-opacity="0.5" /></filter>
+</defs><g filter="url(#ms_lift)">
+<circle cx="92" cy="90" r="27" fill="white" />
+<circle cx="92" cy="90" r="24" fill="url(#ms_play)" />
+<path d="M86 79.5 L103.5 90 L86 100.5 Z" fill="white" stroke="white" stroke-width="3" stroke-linejoin="round" />
+</g>
+</svg>

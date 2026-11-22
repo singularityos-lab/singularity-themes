@@ -1,0 +1,335 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  61,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cloud"
+  },
+  {
+   "clip": "M17.46,34.57 C9.15,34.57 4.72,29.03 5.28,22.94 C5.83,16.85 10.82,12.97 16.91,13.52 C18.02,6.88 24.11,2.45 31.31,3.55 C36.85,4.38 40.72,7.98 42.38,12.42 C44.6,11.31 47.37,11.03 50.14,11.86 C56.78,13.52 60.11,19.62 58.45,25.71 C57.06,31.25 52.91,34.57 46.82,34.57 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "cloud"
+    }
+   ]
+  },
+  {
+   "rim": "M17.46,34.57 C9.15,34.57 4.72,29.03 5.28,22.94 C5.83,16.85 10.82,12.97 16.91,13.52 C18.02,6.88 24.11,2.45 31.31,3.55 C36.85,4.38 40.72,7.98 42.38,12.42 C44.6,11.31 47.37,11.03 50.14,11.86 C56.78,13.52 60.11,19.62 58.45,25.71 C57.06,31.25 52.91,34.57 46.82,34.57 Z",
+   "light": [
+    4.7,
+    2.5,
+    60.1,
+    34.6
+   ],
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "rain"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "rain"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "bolt"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "bolt"
+  },
+  {
+   "clip": "M36.5,29 L23.5,47 H31.5 L27,62 L44.5,40 H35.5 L40.5,29 Z",
+   "stack": [
+    {
+     "layer": "layers/008.svg",
+     "piece": "bolt"
+    }
+   ]
+  },
+  {
+   "rim": "M36.5,29 L23.5,47 H31.5 L27,62 L44.5,40 H35.5 L40.5,29 Z",
+   "light": [
+    23.5,
+    29.0,
+    44.5,
+    62.0
+   ],
+   "piece": "bolt"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cloud",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -1.6,
+      0
+     ],
+     "at": 330,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      2.933,
+      0
+     ],
+     "at": 375,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -2.4,
+      0
+     ],
+     "at": 420,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      1.867,
+      0
+     ],
+     "at": 465,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -1.333,
+      0
+     ],
+     "at": 510,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.533,
+      0
+     ],
+     "at": 555,
+     "duration": 45,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 760,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "rain",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      6.528,
+      -21.76
+     ],
+     "at": 0,
+     "duration": 240,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -6.528,
+      21.76
+     ],
+     "at": 240,
+     "duration": 10,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      6.528,
+      -21.76
+     ],
+     "at": 250,
+     "duration": 240,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -6.528,
+      21.76
+     ],
+     "at": 490,
+     "duration": 10,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      3.264,
+      -10.88
+     ],
+     "at": 500,
+     "duration": 260,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 190,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 250,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 440,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 500,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bolt",
+   "origin": [
+    33.0,
+    29.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.22,
+      0.22
+     ],
+     "at": 250,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.18,
+      1.18
+     ],
+     "at": 330,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 250,
+     "duration": 40,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.9
+     ],
+     "at": 290,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.1
+     ],
+     "at": 370,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 430,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 500,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

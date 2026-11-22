@@ -1,0 +1,92 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  10,
+  22,
+  117,
+  115
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "folder"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "globe"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "folder",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 720,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "globe",
+   "origin": [
+    90.0,
+    88.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.92,
+      1
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.08,
+      1
+     ],
+     "at": 170,
+     "duration": 170,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.92,
+      1
+     ],
+     "at": 340,
+     "duration": 170,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.08,
+      1
+     ],
+     "at": 510,
+     "duration": 210,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

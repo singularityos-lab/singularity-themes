@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="236" viewBox="0 0 236 236" fill="none"><defs><linearGradient id="front" x1="24" y1="26" x2="210" y2="212" gradientUnits="userSpaceOnUse">
+<stop offset="0%" stop-color="#6ff0b4" />
+<stop offset="55%" stop-color="#22c47e" />
+<stop offset="100%" stop-color="#0f9a5f" />
+</linearGradient>
+</defs><g stroke-width="12" stroke-linecap="round"><path d="M134 22C170 28 196 54 202 90" stroke="url(#front)" />
+</g></svg>

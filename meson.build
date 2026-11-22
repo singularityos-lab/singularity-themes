@@ -33,3 +33,11 @@ endif
 meson.add_install_script(python, meson.current_source_dir() / 'tools' / 'accent-icons.py',
   meson.current_source_dir() / 'Singularity',
   get_option('datadir') / 'icons')
+
+iride = find_program('iride', required: get_option('iride'))
+if iride.found()
+  meson.add_install_script(python, meson.current_source_dir() / 'tools' / 'iride-icons.py',
+    iride,
+    meson.current_source_dir() / 'iride',
+    get_option('datadir') / 'icons' / 'Singularity')
+endif

@@ -1,0 +1,203 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  63,
+  56
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cloud"
+  },
+  {
+   "clip": "M15.54,35.23 C7.85,35.23 3.74,30.1 4.26,24.46 C4.77,18.82 9.38,15.23 15.03,15.74 C16.05,9.59 21.69,5.49 28.36,6.51 C33.49,7.28 37.08,10.62 38.62,14.72 C40.67,13.69 43.23,13.44 45.79,14.21 C51.95,15.74 55.03,21.38 53.49,27.03 C52.21,32.15 48.36,35.23 42.72,35.23 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "cloud"
+    }
+   ]
+  },
+  {
+   "rim": "M15.54,35.23 C7.85,35.23 3.74,30.1 4.26,24.46 C4.77,18.82 9.38,15.23 15.03,15.74 C16.05,9.59 21.69,5.49 28.36,6.51 C33.49,7.28 37.08,10.62 38.62,14.72 C40.67,13.69 43.23,13.44 45.79,14.21 C51.95,15.74 55.03,21.38 53.49,27.03 C52.21,32.15 48.36,35.23 42.72,35.23 Z",
+   "light": [
+    3.7,
+    5.5,
+    55.0,
+    35.2
+   ],
+   "piece": "cloud"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "warning"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "warning"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "warning"
+  },
+  {
+   "clip": "M44.7,30.2 Q47,26.2 49.3,30.2 L60.7,50.2 Q63,54.2 58.4,54.2 H35.6 Q31,54.2 33.3,50.2 Z",
+   "stack": [
+    {
+     "layer": "layers/007.svg",
+     "piece": "warning"
+    }
+   ]
+  },
+  {
+   "rim": "M44.7,30.2 Q47,26.2 49.3,30.2 L60.7,50.2 Q63,54.2 58.4,54.2 H35.6 Q31,54.2 33.3,50.2 Z",
+   "light": [
+    31.0,
+    26.2,
+    63.0,
+    54.2
+   ],
+   "piece": "warning"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "warning"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "warning"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cloud",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -4.48,
+      0
+     ],
+     "at": 0,
+     "duration": 500,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 685,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "warning",
+   "origin": [
+    47.0,
+    53.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -16.0
+     ],
+     "at": 160,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      29.71429
+     ],
+     "at": 235,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -25.14286
+     ],
+     "at": 310,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      20.57143
+     ],
+     "at": 385,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -16.0
+     ],
+     "at": 460,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      11.42857
+     ],
+     "at": 535,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -4.57143
+     ],
+     "at": 610,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      3.84
+     ],
+     "at": 160,
+     "duration": 120,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -3.84
+     ],
+     "at": 280,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

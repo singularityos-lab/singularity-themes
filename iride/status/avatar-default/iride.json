@@ -1,0 +1,324 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#1a2438",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "head-back"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "torso-back"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "head"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "torso"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "light"
+  },
+  {
+   "clip": "M40 40A24 24 0 1 0 88 40A24 24 0 1 0 40 40Z",
+   "stack": [
+    {
+     "rim": "M40 40A24 24 0 1 0 88 40A24 24 0 1 0 40 40Z",
+     "light": [
+      40,
+      16,
+      88,
+      64
+     ],
+     "piece": "edge-head"
+    }
+   ]
+  },
+  {
+   "clip": "M18 112C18 84 40 72 64 72C88 72 110 84 110 112Q110 116 106 116H22Q18 116 18 112Z",
+   "stack": [
+    {
+     "rim": "M18 112C18 84 40 72 64 72C88 72 110 84 110 112Q110 116 106 116H22Q18 116 18 112Z",
+     "light": [
+      18.0,
+      72.0,
+      110.0,
+      116.0
+     ],
+     "piece": "edge-torso"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "head-back",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 80,
+     "duration": 140,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      15.36
+     ],
+     "at": 220,
+     "duration": 140,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -6.4
+     ],
+     "at": 360,
+     "duration": 160,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 660,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "torso-back",
+   "origin": [
+    64.0,
+    116.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.84
+     ],
+     "at": 300,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.16
+     ],
+     "at": 420,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "head",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 80,
+     "duration": 140,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      15.36
+     ],
+     "at": 220,
+     "duration": 140,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -6.4
+     ],
+     "at": 360,
+     "duration": 160,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "torso",
+   "origin": [
+    64.0,
+    116.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.84
+     ],
+     "at": 300,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.16
+     ],
+     "at": 420,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "light",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 70,
+     "duration": 40,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 560,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "edge-head",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 80,
+     "duration": 140,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      15.36
+     ],
+     "at": 220,
+     "duration": 140,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -6.4
+     ],
+     "at": 360,
+     "duration": 160,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "edge-torso",
+   "origin": [
+    64.0,
+    116.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.84
+     ],
+     "at": 300,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.16
+     ],
+     "at": 420,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

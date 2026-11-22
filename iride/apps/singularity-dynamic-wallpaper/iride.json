@@ -1,0 +1,279 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  10,
+  16,
+  118,
+  112
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0b1a3a",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "frame"
+    },
+    {
+     "clip": "M16 22H64V106H16Z",
+     "stack": [
+      {
+       "layer": "layers/001.svg",
+       "piece": "frame"
+      },
+      {
+       "layer": "layers/002.svg",
+       "piece": "sun"
+      },
+      {
+       "layer": "layers/003.svg",
+       "piece": "day"
+      }
+     ]
+    },
+    {
+     "clip": "M64 22H112V106H64Z",
+     "stack": [
+      {
+       "layer": "layers/004.svg",
+       "piece": "night"
+      },
+      {
+       "layer": "layers/005.svg",
+       "piece": "moon"
+      },
+      {
+       "layer": "layers/006.svg",
+       "piece": "star-1"
+      },
+      {
+       "layer": "layers/007.svg",
+       "piece": "star-2"
+      },
+      {
+       "layer": "layers/008.svg",
+       "piece": "star-3"
+      },
+      {
+       "layer": "layers/009.svg",
+       "piece": "hills"
+      }
+     ]
+    },
+    {
+     "layer": "layers/010.svg",
+     "piece": "hills"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "frame",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 870,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sun",
+   "origin": [
+    40.0,
+    52.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      42.24
+     ],
+     "at": 0,
+     "duration": 330,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -3.84
+     ],
+     "at": 330,
+     "duration": 130,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "day",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "night",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0.25
+     ],
+     "at": 300,
+     "duration": 220,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "moon",
+   "origin": [
+    100.0,
+    47.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      44.8
+     ],
+     "at": 300,
+     "duration": 360,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -2.56
+     ],
+     "at": 660,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "star-1",
+   "origin": [
+    76.0,
+    36.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 520,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 570,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "star-2",
+   "origin": [
+    84.0,
+    56.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 640,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 690,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "star-3",
+   "origin": [
+    72.0,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 760,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 810,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "hills",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": []
+  }
+ ]
+}

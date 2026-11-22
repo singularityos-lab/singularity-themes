@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><radialGradient id="wd_globe" cx="80" cy="74" r="34" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7eeab0" /><stop offset="0.6" stop-color="#2fbf7e" /><stop offset="1" stop-color="#148a57" /></radialGradient>
+<clipPath id="wd_globe_clip"><circle cx="90" cy="88" r="24" /></clipPath>
+<filter id="wd_lift" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#062416" flood-opacity="0.5" /></filter>
+</defs><g filter="url(#wd_lift)">
+<circle cx="90" cy="88" r="27" fill="white" />
+<circle cx="90" cy="88" r="24" fill="url(#wd_globe)" />
+<g clip-path="url(#wd_globe_clip)" stroke="white" stroke-width="4" stroke-opacity="0.95">
+<ellipse cx="90" cy="88" rx="11" ry="24" />
+<path d="M90 62 V114 M64 88 H116" />
+</g>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+option('iride',
+  type: 'feature',
+  value: 'disabled',
+  description: 'Compile the Iride icons next to their SVG')

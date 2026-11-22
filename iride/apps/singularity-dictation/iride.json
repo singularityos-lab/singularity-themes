@@ -1,0 +1,554 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 2,
+    "color": "#2e0f66",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "wave-back-0"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "wave-back-1"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "wave-back-2"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "wave-back-3"
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "wave-0"
+    },
+    {
+     "layer": "layers/005.svg",
+     "piece": "wave-1"
+    },
+    {
+     "layer": "layers/006.svg",
+     "piece": "wave-2"
+    },
+    {
+     "layer": "layers/007.svg",
+     "piece": "wave-3"
+    }
+   ]
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#2e0f66",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/008.svg",
+     "piece": "arm"
+    },
+    {
+     "layer": "layers/009.svg",
+     "piece": "arm"
+    },
+    {
+     "layer": "layers/010.svg",
+     "piece": "arm"
+    },
+    {
+     "layer": "layers/011.svg",
+     "piece": "arm"
+    },
+    {
+     "layer": "layers/012.svg",
+     "piece": "arm"
+    },
+    {
+     "layer": "layers/013.svg",
+     "piece": "arm"
+    }
+   ]
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "arm"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "arm"
+  },
+  {
+   "clip": "M47 100H81A5 5 0 0 1 86 105V105A5 5 0 0 1 81 110H47A5 5 0 0 1 42 105V105A5 5 0 0 1 47 100Z",
+   "stack": [
+    {
+     "layer": "layers/016.svg",
+     "piece": "arm"
+    }
+   ]
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#2e0f66",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/017.svg",
+     "piece": "capsule"
+    },
+    {
+     "layer": "layers/018.svg",
+     "piece": "capsule"
+    }
+   ]
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "capsule"
+  },
+  {
+   "clip": "M64 10H64A18 18 0 0 1 82 28V56A18 18 0 0 1 64 74H64A18 18 0 0 1 46 56V28A18 18 0 0 1 64 10Z",
+   "stack": [
+    {
+     "rim": "M64 10H64A18 18 0 0 1 82 28V56A18 18 0 0 1 64 74H64A18 18 0 0 1 46 56V28A18 18 0 0 1 64 10Z",
+     "light": [
+      46,
+      10,
+      82,
+      74
+     ],
+     "piece": "capsule"
+    }
+   ]
+  },
+  {
+   "layer": "layers/021.svg",
+   "piece": "capsule"
+  },
+  {
+   "layer": "layers/022.svg",
+   "piece": "capsule"
+  },
+  {
+   "layer": "layers/023.svg",
+   "piece": "capsule"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "wave-back-0",
+   "origin": [
+    20.0,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 60,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 250,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 390,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 620,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-back-1",
+   "origin": [
+    9.5,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 180,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 370,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 510,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-back-2",
+   "origin": [
+    108.0,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 60,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 250,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 390,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-back-3",
+   "origin": [
+    118.5,
+    58.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 180,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 370,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 510,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-0",
+   "origin": [
+    20.0,
+    56.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 60,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 250,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 390,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-1",
+   "origin": [
+    9.5,
+    56.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 180,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 370,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 510,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-2",
+   "origin": [
+    108.0,
+    56.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 60,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 250,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 390,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-3",
+   "origin": [
+    118.5,
+    56.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 180,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      2
+     ],
+     "at": 370,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 510,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "arm",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "capsule",
+   "origin": [
+    64.0,
+    42.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.9
+     ],
+     "at": 0,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.1
+     ],
+     "at": 90,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.88,
+      0.88
+     ],
+     "at": 190,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.12
+     ],
+     "at": 290,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.94,
+      0.94
+     ],
+     "at": 400,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.06,
+      1.06
+     ],
+     "at": 500,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><linearGradient id="oc_body" x1="64" y1="24" x2="64" y2="104" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4f6fa8" /><stop offset="0.55" stop-color="#2c4a82" /><stop offset="1" stop-color="#1b3263" /></linearGradient>
+<linearGradient id="oc_base" x1="64" y1="70" x2="64" y2="108" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#15264b" /><stop offset="1" stop-color="#0e1a36" /></linearGradient>
+<filter id="oc_sh" x="-20%" y="-20%" width="140%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#060d1f" flood-opacity="0.45" /></filter>
+</defs><g filter="url(#oc_sh)">
+<g transform="translate(0 5)" fill="url(#oc_base)"><rect x="10" y="62" width="108" height="38" rx="19" /><circle cx="42" cy="62" r="22" /><circle cx="70" cy="50" r="28" /><circle cx="96" cy="68" r="19" /></g>
+<g fill="url(#oc_body)"><rect x="10" y="62" width="108" height="38" rx="19" /><circle cx="42" cy="62" r="22" /><circle cx="70" cy="50" r="28" /><circle cx="96" cy="68" r="19" /></g>
+</g>
+</svg>

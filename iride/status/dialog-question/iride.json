@@ -1,0 +1,364 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0a1f5c",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "mark-back"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "dot-back"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "mark"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "dot"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "light"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "light"
+  },
+  {
+   "clip": "M54 102A10 10 0 1 0 74 102A10 10 0 1 0 54 102Z",
+   "stack": [
+    {
+     "rim": "M54 102A10 10 0 1 0 74 102A10 10 0 1 0 54 102Z",
+     "light": [
+      54,
+      92,
+      74,
+      112
+     ],
+     "piece": "edge-dot"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "mark-back",
+   "origin": [
+    64.0,
+    78.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      20
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -34
+     ],
+     "at": 170,
+     "duration": 180,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      20
+     ],
+     "at": 350,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -6
+     ],
+     "at": 500,
+     "duration": 140,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 640,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "dot-back",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      8.96
+     ],
+     "at": 170,
+     "duration": 95,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 265,
+     "duration": 95,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      5.12
+     ],
+     "at": 400,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5.12
+     ],
+     "at": 480,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "mark",
+   "origin": [
+    64.0,
+    78.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      20
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -34
+     ],
+     "at": 170,
+     "duration": 180,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      20
+     ],
+     "at": 350,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -6
+     ],
+     "at": 500,
+     "duration": 140,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "dot",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      8.96
+     ],
+     "at": 170,
+     "duration": 95,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 265,
+     "duration": 95,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      5.12
+     ],
+     "at": 400,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5.12
+     ],
+     "at": 480,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "light",
+   "origin": [
+    64.0,
+    78.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      20
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -34
+     ],
+     "at": 170,
+     "duration": 180,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      20
+     ],
+     "at": 350,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -6
+     ],
+     "at": 500,
+     "duration": 140,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "edge-dot",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      8.96
+     ],
+     "at": 170,
+     "duration": 95,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -8.96
+     ],
+     "at": 265,
+     "duration": 95,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      5.12
+     ],
+     "at": 400,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5.12
+     ],
+     "at": 480,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

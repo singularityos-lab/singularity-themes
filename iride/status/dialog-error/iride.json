@@ -1,0 +1,164 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#4c0d08",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "cross"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "cross"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "cross"
+  },
+  {
+   "rim": "M34 34L94 94M94 34L34 94",
+   "light": [
+    34.0,
+    34.0,
+    94.0,
+    94.0
+   ],
+   "piece": "cross"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cross",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.38,
+      0.38
+     ],
+     "at": 0,
+     "duration": 140,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.12
+     ],
+     "at": 140,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -8.96,
+      0
+     ],
+     "at": 220,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      16.64,
+      0
+     ],
+     "at": 290,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -14.08,
+      0
+     ],
+     "at": 360,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      11.52,
+      0
+     ],
+     "at": 430,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -8.96,
+      0
+     ],
+     "at": 500,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      6.4,
+      0
+     ],
+     "at": 570,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -2.56,
+      0
+     ],
+     "at": 640,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 710,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

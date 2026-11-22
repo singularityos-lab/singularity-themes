@@ -1,0 +1,131 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#053d1f",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "arrows"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "arrows"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "arrows"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "arrows"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "arrows"
+  },
+  {
+   "clip": "M19.83 45.93A47 47 0 0 1 104.7 38.5L113.36 33.5L99.91 59.49L76.99 54.5L85.65 49.5A25 25 0 0 0 40.51 53.45Z",
+   "stack": [
+    {
+     "rim": "M19.83 45.93A47 47 0 0 1 104.7 38.5L113.36 33.5L99.91 59.49L76.99 54.5L85.65 49.5A25 25 0 0 0 40.51 53.45Z",
+     "light": [
+      19.8,
+      33.5,
+      113.4,
+      59.5
+     ],
+     "piece": "arrows"
+    }
+   ]
+  },
+  {
+   "clip": "M108.17 78.07A47 47 0 0 1 23.3 85.5L14.64 90.5L28.09 64.51L51.01 69.5L42.35 74.5A25 25 0 0 0 87.49 70.55Z",
+   "stack": [
+    {
+     "rim": "M108.17 78.07A47 47 0 0 1 23.3 85.5L14.64 90.5L28.09 64.51L51.01 69.5L42.35 74.5A25 25 0 0 0 87.49 70.55Z",
+     "light": [
+      14.6,
+      64.5,
+      108.2,
+      90.5
+     ],
+     "piece": "arrows"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "arrows",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -360
+     ],
+     "at": 0,
+     "duration": 820,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      0.92
+     ],
+     "at": 720,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.08,
+      1.08
+     ],
+     "at": 786,
+     "duration": 134,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 920,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

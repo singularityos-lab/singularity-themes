@@ -1,0 +1,131 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#053d1f",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "arrows"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "arrows"
+    },
+    {
+     "layer": "layers/002.svg",
+     "piece": "arrows"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "arrows"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "arrows"
+  },
+  {
+   "clip": "M20.77 48.27A46 46 0 0 1 103.84 41L110.77 37L101.79 60.03L83.05 53L89.98 49A30 30 0 0 0 35.81 53.74Z",
+   "stack": [
+    {
+     "rim": "M20.77 48.27A46 46 0 0 1 103.84 41L110.77 37L101.79 60.03L83.05 53L89.98 49A30 30 0 0 0 35.81 53.74Z",
+     "light": [
+      20.8,
+      37.0,
+      110.8,
+      60.0
+     ],
+     "piece": "arrows"
+    }
+   ]
+  },
+  {
+   "clip": "M107.23 79.73A46 46 0 0 1 24.16 87L17.23 91L26.21 67.97L44.95 75L38.02 79A30 30 0 0 0 92.19 74.26Z",
+   "stack": [
+    {
+     "rim": "M107.23 79.73A46 46 0 0 1 24.16 87L17.23 91L26.21 67.97L44.95 75L38.02 79A30 30 0 0 0 92.19 74.26Z",
+     "light": [
+      17.2,
+      68.0,
+      107.2,
+      91.0
+     ],
+     "piece": "arrows"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "arrows",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -360
+     ],
+     "at": 0,
+     "duration": 820,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      0.92
+     ],
+     "at": 720,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.08,
+      1.08
+     ],
+     "at": 786,
+     "duration": 134,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 920,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

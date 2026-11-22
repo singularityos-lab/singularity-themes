@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><filter id="fw_lift" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#0c1a45" flood-opacity="0.4" /></filter>
+</defs><g filter="url(#fw_lift)" fill="white">
+<path d="M64 46 L78 62 H69 V78 H59 V62 H50 Z" stroke="white" stroke-width="2" stroke-linejoin="round" />
+</g>
+</svg>

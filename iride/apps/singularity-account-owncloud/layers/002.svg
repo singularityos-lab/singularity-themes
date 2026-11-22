@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><linearGradient id="oc_back" x1="64" y1="54" x2="64" y2="94" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#a9c2ea" /><stop offset="1" stop-color="#7f9dd0" /></linearGradient>
+<linearGradient id="oc_front" x1="64" y1="66" x2="64" y2="96" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff" /><stop offset="1" stop-color="#d6e3f7" /></linearGradient>
+<filter id="oc_lift" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#060d1f" flood-opacity="0.45" /></filter>
+</defs><g filter="url(#oc_lift)">
+<path d="M38 58 A5 5 0 0 1 43 53 H56 L62 59 H85 A5 5 0 0 1 90 64 V89 A5 5 0 0 1 85 94 H43 A5 5 0 0 1 38 89 Z" fill="url(#oc_back)" />
+<rect x="38" y="66" width="52" height="28" rx="5" fill="url(#oc_front)" />
+<rect x="56" y="74" width="16" height="5" rx="2.5" fill="#2c4a82" fill-opacity="0.7" />
+</g>
+</svg>

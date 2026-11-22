@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><radialGradient id="mu_disc" cx="80" cy="56" r="40" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3a3f4c" /><stop offset="1" stop-color="#14161c" /></radialGradient>
+<filter id="mu_sh" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#2a0718" flood-opacity="0.45" /></filter>
+</defs><g filter="url(#mu_sh)">
+<circle cx="80" cy="60" r="38" fill="url(#mu_disc)" />
+<circle cx="80" cy="60" r="36.5" stroke="white" stroke-opacity="0.22" stroke-width="3" />
+<circle cx="80" cy="60" r="29" stroke="white" stroke-opacity="0.09" stroke-width="2" />
+<circle cx="80" cy="60" r="21" stroke="white" stroke-opacity="0.09" stroke-width="2" />
+<circle cx="80" cy="60" r="11" fill="#7ad7ff" />
+<circle cx="80" cy="60" r="3" fill="#14161c" />
+</g>
+</svg>

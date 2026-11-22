@@ -1,0 +1,84 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  12,
+  13,
+  119,
+  110
+ ],
+ "stack": [
+  {
+   "layer": "layers/sotto.svg",
+   "piece": "calendar"
+  },
+  {
+   "layer": "layers/sopra.svg",
+   "piece": "contact"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sync"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "calendar",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 840,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "contact",
+   "origin": [
+    83.0,
+    84.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -17.92,
+      -17.92
+     ],
+     "at": 0,
+     "duration": 340,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "sync",
+   "origin": [
+    102.0,
+    30.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -360
+     ],
+     "at": 200,
+     "duration": 640,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

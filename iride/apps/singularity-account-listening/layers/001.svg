@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><linearGradient id="li_badge" x1="70" y1="66" x2="118" y2="114" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7ce8e0" /><stop offset="0.55" stop-color="#22b3a8" /><stop offset="1" stop-color="#0f7d78" /></linearGradient>
+<filter id="li_lift" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#06302d" flood-opacity="0.5" /></filter>
+</defs><g filter="url(#li_lift)">
+<circle cx="92" cy="90" r="27" fill="white" />
+<circle cx="92" cy="90" r="24" fill="url(#li_badge)" />
+<path d="M82 100 V88 M92 100 V78 M102 100 V84" stroke="white" stroke-width="6" stroke-linecap="round" />
+</g>
+</svg>

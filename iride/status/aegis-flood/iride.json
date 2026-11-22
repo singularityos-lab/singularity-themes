@@ -1,0 +1,164 @@
+{
+ "format": 1,
+ "canvas": [
+  16,
+  16
+ ],
+ "box": [
+  0,
+  1,
+  16,
+  16
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "house"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "house"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "house"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "water"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "water"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "water"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "house",
+   "origin": [
+    8.0,
+    10.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      1.28
+     ],
+     "at": 0,
+     "duration": 200,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -1.12
+     ],
+     "at": 200,
+     "duration": 220,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      0.32
+     ],
+     "at": 420,
+     "duration": 280,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      7
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -13
+     ],
+     "at": 170,
+     "duration": 210,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      8
+     ],
+     "at": 380,
+     "duration": 180,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -2
+     ],
+     "at": 560,
+     "duration": 140,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 700,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "water",
+   "origin": [
+    8.0,
+    8.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -1.28,
+      0.8
+     ],
+     "at": 0,
+     "duration": 200,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      1.12,
+      -0.48
+     ],
+     "at": 200,
+     "duration": 220,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -0.64,
+      0.16
+     ],
+     "at": 420,
+     "duration": 280,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

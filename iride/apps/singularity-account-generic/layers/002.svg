@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" fill="none"><defs><filter id="gn_lift" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#1c1047" flood-opacity="0.4" /></filter>
+</defs><g filter="url(#gn_lift)" fill="white">
+<circle cx="66" cy="57" r="11" />
+<path d="M45 92 C45 80 54 73 66 73 C78 73 87 80 87 92 A3 3 0 0 1 84 95 H48 A3 3 0 0 1 45 92 Z" />
+</g>
+</svg>
