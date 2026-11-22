@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import glob
 import os
 import shutil
 import subprocess
@@ -7,9 +6,33 @@ import sys
 import tempfile
 
 import draw
+import motion
 
 SIZES = (24, 32, 48, 64, 96)
-FRAME_MS = 60
+
+
+def frame_delay(index, count, loops):
+    if count == 1:
+        return ""
+    return f" {0 if index == count - 1 and not loops else motion.STEP}"
+
+
+def write_cursor(tmp, cursors_dir, name, frames, hot, loops):
+    lines = []
+    for i, frame in enumerate(frames):
+        src = os.path.join(tmp, f"{name}-{i}.svg")
+        with open(src, "w") as f:
+            f.write(draw.svg(frame))
+        for size in SIZES:
+            png = os.path.join(tmp, f"{name}-{size}-{i}.png")
+            subprocess.run(["rsvg-convert", "-w", str(size), "-h", str(size), src, "-o", png], check=True)
+            x = min(size - 1, round(hot[0] * size / 24))
+            y = min(size - 1, round(hot[1] * size / 24))
+            lines.append((size, i, f"{size} {x} {y} {png}{frame_delay(i, len(frames), loops)}"))
+    config = os.path.join(tmp, f"{name}.cfg")
+    with open(config, "w") as f:
+        f.write("\n".join(line for *_, line in sorted(lines)) + "\n")
+    subprocess.run(["xcursorgen", config, os.path.join(cursors_dir, name)], check=True)
 
 
 def build(out_dir):
@@ -18,24 +41,9 @@ def build(out_dir):
         shutil.rmtree(cursors_dir)
     os.makedirs(cursors_dir)
     with tempfile.TemporaryDirectory() as tmp:
-        svg_dir = os.path.join(tmp, "svg")
-        draw.main_to(svg_dir)
-        for name, (frames, hot) in draw.cursors().items():
-            animated = isinstance(frames[0], list)
-            sources = [os.path.join(svg_dir, f"{name}-{i:02d}.svg") for i in range(len(frames))] if animated else [os.path.join(svg_dir, f"{name}.svg")]
-            lines = []
-            for size in SIZES:
-                scale = size / 24
-                for i, src in enumerate(sources):
-                    png = os.path.join(tmp, f"{name}-{size}-{i}.png")
-                    subprocess.run(["rsvg-convert", "-w", str(size), "-h", str(size), src, "-o", png], check=True)
-                    x = min(size - 1, round(hot[0] * scale))
-                    y = min(size - 1, round(hot[1] * scale))
-                    lines.append(f"{size} {x} {y} {png}" + (f" {FRAME_MS}" if animated else ""))
-            config = os.path.join(tmp, f"{name}.cfg")
-            with open(config, "w") as f:
-                f.write("\n".join(lines) + "\n")
-            subprocess.run(["xcursorgen", config, os.path.join(cursors_dir, name)], check=True)
+        for base, (_, hot) in draw.cursors().items():
+            for name, frames, loops in motion.sequences(base):
+                write_cursor(tmp, cursors_dir, name, frames, hot, loops)
     for alias, target in draw.ALIASES.items():
         path = os.path.join(cursors_dir, alias)
         if not os.path.lexists(path):
