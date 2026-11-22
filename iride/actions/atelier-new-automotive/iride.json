@@ -1,0 +1,328 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#4c0d08",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "shell-body"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "shell-body"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "shell-body"
+  },
+  {
+   "clip": "M10 84Q10 72 22 70L38 66L52 46Q56 42 62 42H86Q92 42 96 46L108 64Q118 66 118 76V88Q118 94 112 94H16Q10 94 10 88Z",
+   "stack": [
+    {
+     "rim": "M10 84Q10 72 22 70L38 66L52 46Q56 42 62 42H86Q92 42 96 46L108 64Q118 66 118 76V88Q118 94 112 94H16Q10 94 10 88Z",
+     "light": [
+      10.0,
+      42.0,
+      118.0,
+      94.0
+     ],
+     "piece": "shell-body"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "shell-body"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "shell-body"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "big-wheel-back"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "big-wheel-back"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "big-wheel-back"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "big-wheel-front"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "big-wheel-front"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "big-wheel-front"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "beacon"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "shell-body",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -27.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 420,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      4.0,
+      0.0
+     ],
+     "at": 420,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -1.0,
+      0.0
+     ],
+     "at": 520,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -2.5
+     ],
+     "at": 400,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      4.5
+     ],
+     "at": 480,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.999
+     ],
+     "at": 560,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 830,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "big-wheel-back",
+   "origin": [
+    34.0,
+    94.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -27.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 420,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      4.0,
+      0.0
+     ],
+     "at": 420,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -1.0,
+      0.0
+     ],
+     "at": 520,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "big-wheel-front",
+   "origin": [
+    94.0,
+    94.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -27.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 420,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      4.0,
+      0.0
+     ],
+     "at": 420,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -1.0,
+      0.0
+     ],
+     "at": 520,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "beacon",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -27.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 420,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      4.0,
+      0.0
+     ],
+     "at": 420,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -1.0,
+      0.0
+     ],
+     "at": 520,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 600,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 650,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 720,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 770,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

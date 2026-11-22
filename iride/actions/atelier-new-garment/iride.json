@@ -1,0 +1,174 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#0a1f5c",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "shirt"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "shirt"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "shirt"
+  },
+  {
+   "clip": "M44 14L22 26L8 52L26 62L34 50V112Q34 116 38 116H90Q94 116 94 112V50L102 62L120 52L106 26L84 14Q76 26 64 26Q52 26 44 14Z",
+   "stack": [
+    {
+     "rim": "M44 14L22 26L8 52L26 62L34 50V112Q34 116 38 116H90Q94 116 94 112V50L102 62L120 52L106 26L84 14Q76 26 64 26Q52 26 44 14Z",
+     "light": [
+      8.0,
+      14.0,
+      120.0,
+      116.0
+     ],
+     "piece": "shirt"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "neck"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "hem"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "shirt",
+   "origin": [
+    64.0,
+    16.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -10.0
+     ],
+     "at": 0,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      18.33333
+     ],
+     "at": 110,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -15.0
+     ],
+     "at": 220,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      11.66667
+     ],
+     "at": 330,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -8.33333
+     ],
+     "at": 440,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      3.33333
+     ],
+     "at": 550,
+     "duration": 110,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "neck",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      44.0,
+      128
+     ],
+     "at": 420,
+     "duration": 420,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "hem",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      38.0,
+      128
+     ],
+     "at": 560,
+     "duration": 440,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

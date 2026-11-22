@@ -1,0 +1,281 @@
+{
+ "format": 1,
+ "canvas": [
+  236,
+  236
+ ],
+ "box": [
+  18,
+  18,
+  218,
+  224
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "sheet"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 5,
+    "blur": 6,
+    "color": "#080f1f",
+    "opacity": 0.5,
+    "region": [
+     -20,
+     -20,
+     276,
+     276
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/004.svg",
+     "piece": "printer"
+    },
+    {
+     "layer": "layers/005.svg",
+     "piece": "printer"
+    }
+   ]
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "printer"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "printer"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "printer"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "light"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "keys"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "keys"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "print"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "print"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "print"
+  },
+  {
+   "clip": "M85 156H151A5 5 0 0 1 156 161V197A5 5 0 0 1 151 202H85A5 5 0 0 1 80 197V161A5 5 0 0 1 85 156Z",
+   "stack": [
+    {
+     "layer": "layers/015.svg",
+     "piece": "print"
+    },
+    {
+     "layer": "layers/016.svg",
+     "piece": "print"
+    },
+    {
+     "layer": "layers/017.svg",
+     "piece": "print"
+    },
+    {
+     "layer": "layers/018.svg",
+     "piece": "print"
+    }
+   ]
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "print"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -20.001
+     ],
+     "at": 0,
+     "duration": 520,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      5.999
+     ],
+     "at": 520,
+     "duration": 140,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 660,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "printer",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "light",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 0,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 50,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 180,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 230,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 360,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 410,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "print",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -23.999
+     ],
+     "at": 0,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -26.0
+     ],
+     "at": 220,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -30.0
+     ],
+     "at": 440,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    54.0,
+    144.0,
+    182.0,
+    236.0
+   ]
+  }
+ ]
+}

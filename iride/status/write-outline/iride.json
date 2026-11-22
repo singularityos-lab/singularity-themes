@@ -1,0 +1,299 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#1a2438",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "sheet"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M32 12H86L102 28V110Q102 116 96 116H32Q26 116 26 110V18Q26 12 32 12Z",
+   "stack": [
+    {
+     "rim": "M32 12H86L102 28V110Q102 116 96 116H32Q26 116 26 110V18Q26 12 32 12Z",
+     "light": [
+      26.0,
+      12.0,
+      102.0,
+      116.0
+     ],
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "item-0"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "item-0"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "item-1"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "item-1"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "item-2"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "item-2"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "item-3"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "item-3"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "item-4"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "item-4"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "item-5"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "item-5"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 700,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "item-0",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -7.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "item-1",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -15.0,
+      0.0
+     ],
+     "at": 100,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 100,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "item-2",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -15.0,
+      0.0
+     ],
+     "at": 200,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 200,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "item-3",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -7.0,
+      0.0
+     ],
+     "at": 300,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 300,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "item-4",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -15.0,
+      0.0
+     ],
+     "at": 400,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 400,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "item-5",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -15.0,
+      0.0
+     ],
+     "at": 500,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 500,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 2,
+    "color": "#591f05",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "handle"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "handle"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "handle"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#591f05",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "bag"
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "bag"
+    }
+   ]
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "bag"
+  },
+  {
+   "clip": "M24 46H104Q110 46 110 52L114 106Q114 114 106 114H22Q14 114 14 106L18 52Q18 46 24 46Z",
+   "stack": [
+    {
+     "rim": "M24 46H104Q110 46 110 52L114 106Q114 114 106 114H22Q14 114 14 106L18 52Q18 46 24 46Z",
+     "light": [
+      14.0,
+      46.0,
+      114.0,
+      114.0
+     ],
+     "piece": "bag"
+    }
+   ]
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "seam"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "clasp"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "clasp"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "handle",
+   "origin": [
+    64.0,
+    47.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.8
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      1.2
+     ],
+     "at": 170,
+     "duration": 160,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 840,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bag",
+   "origin": [
+    64.0,
+    114.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.04,
+      0.95
+     ],
+     "at": 120,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      1.1
+     ],
+     "at": 230,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.04,
+      0.95
+     ],
+     "at": 340,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "seam",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      24.0,
+      128
+     ],
+     "at": 300,
+     "duration": 390,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "clasp",
+   "origin": [
+    64.0,
+    68.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 600,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.4,
+      1.4
+     ],
+     "at": 680,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

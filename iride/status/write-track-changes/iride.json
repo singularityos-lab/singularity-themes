@@ -1,0 +1,248 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#1a2438",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "sheet"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M26 12H80L96 28V110Q96 116 90 116H26Q20 116 20 110V18Q20 12 26 12Z",
+   "stack": [
+    {
+     "rim": "M26 12H80L96 28V110Q96 116 90 116H26Q20 116 20 110V18Q20 12 26 12Z",
+     "light": [
+      20.0,
+      12.0,
+      96.0,
+      116.0
+     ],
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "crossed"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "addition"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "addition"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "bottom"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#4c0d08",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/011.svg",
+     "piece": "pencil"
+    },
+    {
+     "layer": "layers/012.svg",
+     "piece": "pencil"
+    }
+   ]
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "pencil"
+  },
+  {
+   "clip": "M96 52L110 66L76 100L58 106L64 88Z",
+   "stack": [
+    {
+     "rim": "M96 52L110 66L76 100L58 106L64 88Z",
+     "light": [
+      58.0,
+      52.0,
+      110.0,
+      106.0
+     ],
+     "piece": "pencil"
+    }
+   ]
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "pencil"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "pencil"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "crossed",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      28.0,
+      128
+     ],
+     "at": 60,
+     "duration": 481,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "addition",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      32.0,
+      128
+     ],
+     "at": 360,
+     "duration": 624,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bottom",
+   "origin": [
+    64.0,
+    64.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "pencil",
+   "origin": [
+    60.0,
+    105.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -52.0,
+      0.0
+     ],
+     "at": 60,
+     "duration": 250,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      48.0,
+      -17.999
+     ],
+     "at": 310,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -40.0,
+      0.0
+     ],
+     "at": 360,
+     "duration": 260,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      12.0,
+      -33.999
+     ],
+     "at": 620,
+     "duration": 160,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

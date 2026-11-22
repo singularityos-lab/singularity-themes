@@ -1,0 +1,99 @@
+{
+ "format": 1,
+ "canvas": [
+  470,
+  470
+ ],
+ "box": [
+  0,
+  0,
+  470,
+  470
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "arc-high"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "arc-low"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "arc-low"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "cut"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "arc-high",
+   "origin": [
+    235.0,
+    235.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -180
+     ],
+     "at": 0,
+     "duration": 660,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 742,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "arc-low",
+   "origin": [
+    235.0,
+    235.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -180
+     ],
+     "at": 0,
+     "duration": 660,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "cut",
+   "origin": [
+    235.0,
+    235.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      470,
+      45.0
+     ],
+     "at": 420,
+     "duration": 322,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}
