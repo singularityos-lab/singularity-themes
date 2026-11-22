@@ -1,0 +1,170 @@
+{
+ "format": 1,
+ "canvas": [
+  236,
+  236
+ ],
+ "box": [
+  0,
+  0,
+  236,
+  215
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "back"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "back"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "back"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "symbol"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "back",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 790,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "front",
+   "origin": [
+    118.0,
+    214.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      1.16
+     ],
+     "at": 0,
+     "duration": 190,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.84
+     ],
+     "at": 340,
+     "duration": 200,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "symbol",
+   "origin": [
+    118.0,
+    147.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.0,
+      1
+     ],
+     "at": 260,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.2,
+      1
+     ],
+     "at": 430,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 560,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 610,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 680,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 730,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 170,
+     "duration": 70,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

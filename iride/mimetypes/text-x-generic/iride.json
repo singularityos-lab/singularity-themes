@@ -1,0 +1,239 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  54,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "line-6"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "line-7"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "line-8"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "line-9"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "line-10"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "line-11"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "line-12"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 794,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-6",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 0,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-7",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 105,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-8",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 210,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-9",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 315,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-10",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 420,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-11",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 525,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-12",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 630,
+     "duration": 164,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

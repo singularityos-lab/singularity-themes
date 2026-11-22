@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="236" viewBox="0 0 236 236" fill="none"><defs><linearGradient id="pull_g" x1="104" y1="140" x2="132" y2="196" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe08a" /><stop offset="0.5" stop-color="#d9a12b" /><stop offset="1" stop-color="#9a6a12" /></linearGradient>
+</defs><rect x="108" y="134" width="20" height="18" rx="4" fill="url(#pull_g)" />
+</svg>

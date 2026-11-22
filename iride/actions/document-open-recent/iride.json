@@ -1,0 +1,162 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  59,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "hands"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "lines",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      43.0,
+      64,
+      64
+     ],
+     "at": 60,
+     "duration": 940,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "clock",
+   "origin": [
+    45.5,
+    47.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.9
+     ],
+     "at": 600,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.1
+     ],
+     "at": 680,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "hands",
+   "origin": [
+    45.8,
+    47.5
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      720
+     ],
+     "at": 0,
+     "duration": 700,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="236" viewBox="0 0 236 236" fill="none"><defs><radialGradient id="dr_led" cx="188" cy="150" r="6" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9ffe4" /><stop offset="0.5" stop-color="#39d98a" /><stop offset="1" stop-color="#1b8d53" /></radialGradient>
+</defs><circle cx="188" cy="150" r="5" fill="url(#dr_led)" />
+</svg>

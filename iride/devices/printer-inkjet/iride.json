@@ -1,0 +1,360 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  60,
+  58
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "body"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "body"
+  },
+  {
+   "clip": "M10,25 H54 A6,6 0 0 1 60,31 V41 A6,6 0 0 1 54,47 H10 A6,6 0 0 1 4,41 V31 A6,6 0 0 1 10,25 Z",
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "body"
+    }
+   ]
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "body"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "colour-0"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "colour-0"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "colour-1"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "colour-1"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "colour-2"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "colour-2"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "colour-3"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "colour-3"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "controls"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "indicator"
+  },
+  {
+   "layer": "layers/017.svg",
+   "piece": "key-cap"
+  },
+  {
+   "layer": "layers/018.svg",
+   "piece": "print"
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "print"
+  },
+  {
+   "layer": "layers/020.svg",
+   "piece": "print"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -15.0
+     ],
+     "at": 120,
+     "duration": 210,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 720,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    0.0,
+    0.0,
+    64.0,
+    27.0
+   ]
+  },
+  {
+   "piece": "body",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "colour-0",
+   "origin": [
+    15.0,
+    35.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 160,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.4,
+      1.4
+     ],
+     "at": 226,
+     "duration": 134,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "colour-1",
+   "origin": [
+    22.0,
+    35.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 250,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.4,
+      1.4
+     ],
+     "at": 316,
+     "duration": 134,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "colour-2",
+   "origin": [
+    29.0,
+    35.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 340,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.4,
+      1.4
+     ],
+     "at": 406,
+     "duration": 134,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "colour-3",
+   "origin": [
+    36.0,
+    35.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 430,
+     "duration": 66,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.4,
+      1.4
+     ],
+     "at": 496,
+     "duration": 134,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "controls",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "indicator",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 200,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 250,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 460,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 510,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "key-cap",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "print",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -4.18
+     ],
+     "at": 300,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -6.82
+     ],
+     "at": 540,
+     "duration": 180,
+     "ease": "out"
+    }
+   ],
+   "clip": [
+    0.0,
+    45.0,
+    64.0,
+    64.0
+   ]
+  }
+ ]
+}

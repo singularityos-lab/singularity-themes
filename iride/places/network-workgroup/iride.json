@@ -1,0 +1,265 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  5,
+  0,
+  57,
+  53
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "wire"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "globe"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "globe"
+  },
+  {
+   "clip": "M13,26 A19,19 0 1 1 51,26 A19,19 0 1 1 13,26 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "meridian"
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "network"
+    },
+    {
+     "layer": "layers/005.svg",
+     "piece": "network"
+    }
+   ]
+  },
+  {
+   "clip": "M13,26 A19,19 0 1 1 51,26 A19,19 0 1 1 13,26 Z",
+   "stack": [
+    {
+     "layer": "layers/006.svg",
+     "piece": "network"
+    }
+   ]
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "network"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "node-0"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "node-0"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "node-1"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "node-1"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "node-2"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "node-2"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "wire",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      12.0,
+      64
+     ],
+     "at": 0,
+     "duration": 482,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 670,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "globe",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "meridian",
+   "origin": [
+    31.5,
+    26.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.94,
+      1
+     ],
+     "at": 0,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.06,
+      1
+     ],
+     "at": 130,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.94,
+      1
+     ],
+     "at": 260,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.06,
+      1
+     ],
+     "at": 390,
+     "duration": 130,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "network",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "node-0",
+   "origin": [
+    11.5,
+    52.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 120,
+     "duration": 76,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 196,
+     "duration": 154,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "node-1",
+   "origin": [
+    32.0,
+    52.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 280,
+     "duration": 76,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 356,
+     "duration": 154,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "node-2",
+   "origin": [
+    52.5,
+    52.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 440,
+     "duration": 76,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 516,
+     "duration": 154,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

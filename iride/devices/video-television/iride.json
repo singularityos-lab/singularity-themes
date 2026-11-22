@@ -1,0 +1,114 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  60,
+  54
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "frame"
+  },
+  {
+   "clip": "M7,9 H57 A3,3 0 0 1 60,12 V42 A3,3 0 0 1 57,45 H7 A3,3 0 0 1 4,42 V12 A3,3 0 0 1 7,9 Z",
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "frame"
+    }
+   ]
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "glass"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "glass"
+  },
+  {
+   "clip": "M7.4,10.8 H56.6 A1.6,1.6 0 0 1 58.2,12.4 V41.6 A1.6,1.6 0 0 1 56.6,43.2 H7.4 A1.6,1.6 0 0 1 5.8,41.6 V12.4 A1.6,1.6 0 0 1 7.4,10.8 Z",
+   "stack": [
+    {
+     "layer": "layers/009.svg",
+     "piece": "glass"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "frame",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 400,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "glass",
+   "origin": [
+    32.0,
+    26.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.04,
+      1.0
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.03
+     ],
+     "at": 170,
+     "duration": 230,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

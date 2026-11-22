@@ -1,0 +1,325 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  57,
+  55
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "tab"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "tab"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "tab"
+  },
+  {
+   "clip": "M12,11 H52 A5,5 0 0 1 57,16 V48 A5,5 0 0 1 52,53 H12 A5,5 0 0 1 7,48 V16 A5,5 0 0 1 12,11 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "tab"
+    }
+   ]
+  },
+  {
+   "rim": "M12,11 H52 A5,5 0 0 1 57,16 V48 A5,5 0 0 1 52,53 H12 A5,5 0 0 1 7,48 V16 A5,5 0 0 1 12,11 Z",
+   "light": [
+    7.0,
+    11.0,
+    57.0,
+    53.0
+   ],
+   "piece": "tab"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "tab"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "contacts"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/017.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/018.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/020.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/021.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/022.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/023.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/024.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/025.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/026.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/027.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/028.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/029.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/030.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/031.svg",
+   "piece": "legs"
+  },
+  {
+   "layer": "layers/032.svg",
+   "piece": "chip"
+  },
+  {
+   "layer": "layers/033.svg",
+   "piece": "chip"
+  },
+  {
+   "layer": "layers/034.svg",
+   "piece": "chip"
+  },
+  {
+   "layer": "layers/035.svg",
+   "piece": "chip"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "tab",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 820,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "contacts",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      12.0,
+      64
+     ],
+     "at": 0,
+     "duration": 453,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "legs",
+   "origin": [
+    31.5,
+    31.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9,
+      0.9
+     ],
+     "at": 330,
+     "duration": 86,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      1.1
+     ],
+     "at": 416,
+     "duration": 174,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 330,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 380,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 480,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 530,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "chip",
+   "origin": [
+    31.5,
+    31.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.86,
+      0.86
+     ],
+     "at": 330,
+     "duration": 86,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.14,
+      1.14
+     ],
+     "at": 416,
+     "duration": 174,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.93,
+      0.93
+     ],
+     "at": 600,
+     "duration": 73,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.07,
+      1.07
+     ],
+     "at": 673,
+     "duration": 147,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

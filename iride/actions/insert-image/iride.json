@@ -1,0 +1,168 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "frame"
+  },
+  {
+   "rim": "M11,8L47,8A6,6 0 0 1 53,14L53,44A6,6 0 0 1 47,50L11,50A6,6 0 0 1 5,44L5,14A6,6 0 0 1 11,8Z",
+   "light": [
+    5,
+    8,
+    53,
+    50
+   ],
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "sun"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "hills"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "badge"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "badge"
+  },
+  {
+   "rim": "M39,48A12,12 0 1 1 63,48A12,12 0 1 1 39,48Z",
+   "light": [
+    41,
+    38,
+    61,
+    58
+   ],
+   "piece": "badge"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "badge"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "frame",
+   "origin": [
+    29,
+    29
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 600,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sun",
+   "origin": [
+    37,
+    22
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      17
+     ],
+     "at": 100,
+     "duration": 380,
+     "ease": "spring"
+    }
+   ],
+   "clip": [
+    10,
+    13,
+    48,
+    45
+   ]
+  },
+  {
+   "piece": "hills",
+   "origin": [
+    29,
+    45
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      4
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "badge",
+   "origin": [
+    51,
+    48
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 380,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.2,
+      0.2
+     ],
+     "at": 380,
+     "duration": 220,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

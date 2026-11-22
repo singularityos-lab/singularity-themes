@@ -1,0 +1,196 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "handset"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "handset"
+  },
+  {
+   "rim": "M15,8L23,7L29,20L23,25C26,32 32,38 39,41L44,35L57,41L56,50C55,55 51,57 46,56C27,53 11,37 8,18C7,13 10,9 15,8Z",
+   "light": [
+    8,
+    7,
+    57,
+    57
+   ],
+   "piece": "handset"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "ring-0"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "ring-0"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "ring-0"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "ring-1"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "ring-1"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "ring-1"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "handset",
+   "origin": [
+    30,
+    34
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -16.0
+     ],
+     "at": 0,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      29.33
+     ],
+     "at": 70,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -24.0
+     ],
+     "at": 140,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      18.67
+     ],
+     "at": 210,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -13.33
+     ],
+     "at": 280,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      8.0
+     ],
+     "at": 350,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -2.67
+     ],
+     "at": 420,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 490,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "ring-0",
+   "origin": [
+    37,
+    25
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 120,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.4,
+      0.4
+     ],
+     "at": 120,
+     "duration": 220,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "ring-1",
+   "origin": [
+    37,
+    25
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 250,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.4,
+      0.4
+     ],
+     "at": 250,
+     "duration": 220,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

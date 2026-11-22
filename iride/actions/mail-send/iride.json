@@ -1,0 +1,185 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "trail-0"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "trail-1"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "plane"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "plane"
+  },
+  {
+   "rim": "M7,27L59,5L45,54L29,38Z",
+   "light": [
+    7,
+    5,
+    59,
+    54
+   ],
+   "piece": "plane"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "plane"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "plane"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "trail-0",
+   "origin": [
+    14,
+    39
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      3,
+      30,
+      4,
+      62
+     ],
+     "at": 220,
+     "duration": 220,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 740,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "trail-1",
+   "origin": [
+    14,
+    48
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      3,
+      30,
+      4,
+      62
+     ],
+     "at": 280,
+     "duration": 220,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "plane",
+   "origin": [
+    37,
+    27
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -6,
+      5
+     ],
+     "at": 0,
+     "duration": 430,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 0,
+     "duration": 430,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      14
+     ],
+     "at": 0,
+     "duration": 430,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      5.0
+     ],
+     "at": 420,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -8.33
+     ],
+     "at": 500,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      5.0
+     ],
+     "at": 580,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -1.67
+     ],
+     "at": 660,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

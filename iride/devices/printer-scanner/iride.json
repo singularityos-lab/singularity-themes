@@ -1,0 +1,314 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  59,
+  57
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "body"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "body"
+  },
+  {
+   "clip": "M11,25 H53 A6,6 0 0 1 59,31 V43 A6,6 0 0 1 53,49 H11 A6,6 0 0 1 5,43 V31 A6,6 0 0 1 11,25 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "body"
+    }
+   ]
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "lid"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "lid"
+  },
+  {
+   "clip": "M11.5,9 H52.5 A4.5,4.5 0 0 1 57,13.5 V17.5 A4.5,4.5 0 0 1 52.5,22 H11.5 A4.5,4.5 0 0 1 7,17.5 V13.5 A4.5,4.5 0 0 1 11.5,9 Z",
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "lid"
+    }
+   ]
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "light"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "line"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "panel-board"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "panel-board"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "indicator"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "slot-cut"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "copy"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "copy"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "copy"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "copy"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "body",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 750,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "lid",
+   "origin": [
+    55.0,
+    21.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -9
+     ],
+     "at": 0,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      9
+     ],
+     "at": 130,
+     "duration": 130,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "light",
+   "origin": [
+    7.0,
+    21.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.001,
+      1
+     ],
+     "at": 200,
+     "duration": 180,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 420,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 470,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 540,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 590,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line",
+   "origin": [
+    55.0,
+    21.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -9
+     ],
+     "at": 0,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      9
+     ],
+     "at": 130,
+     "duration": 130,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "panel-board",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "indicator",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 220,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 270,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 480,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 530,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "slot-cut",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "copy",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -6.46
+     ],
+     "at": 330,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -10.54
+     ],
+     "at": 570,
+     "duration": 180,
+     "ease": "out"
+    }
+   ],
+   "clip": [
+    0.0,
+    40.5,
+    64.0,
+    64.0
+   ]
+  }
+ ]
+}

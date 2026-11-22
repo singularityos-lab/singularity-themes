@@ -1,0 +1,145 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  58,
+  61
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M14,5 H38 L50,17 V56 A3,3 0 0 1 47,59 H14 A3,3 0 0 1 11,56 V8 A3,3 0 0 1 14,5 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "stamp"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "stamp"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "stamp"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "stamp"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "stamp"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "stamp"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "lines",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      64,
+      20.0
+     ],
+     "at": 0,
+     "duration": 1000,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "stamp",
+   "origin": [
+    40.0,
+    46.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.68,
+      1.68
+     ],
+     "at": 260,
+     "duration": 140,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      0.92
+     ],
+     "at": 400,
+     "duration": 120,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 260,
+     "duration": 80,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

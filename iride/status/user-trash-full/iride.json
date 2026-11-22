@@ -1,0 +1,193 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  52,
+  61
+ ],
+ "stack": [
+  {
+   "layer": "layers/009.svg",
+   "piece": "cards"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "cards"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "cards"
+  },
+  {
+   "layer": "layers/000.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "bin"
+  },
+  {
+   "clip": "M15,20 H49 L46.2,56 A4,4 0 0 1 42.2,59.6 H21.8 A4,4 0 0 1 17.8,56 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "bin"
+    }
+   ]
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "bin"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "hem"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "hem"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cards",
+   "origin": [
+    32.0,
+    24.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      5.12,
+      -27.52
+     ],
+     "at": 0,
+     "duration": 250,
+     "ease": "out"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      28
+     ],
+     "at": 0,
+     "duration": 250,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -2.96
+     ],
+     "at": 250,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      2.96
+     ],
+     "at": 320,
+     "duration": 150,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "bin",
+   "origin": [
+    32.0,
+    59.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.93,
+      1.08
+     ],
+     "at": 250,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.07,
+      0.92
+     ],
+     "at": 320,
+     "duration": 150,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 470,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "hem",
+   "origin": [
+    32.0,
+    59.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.93,
+      1.08
+     ],
+     "at": 250,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.07,
+      0.92
+     ],
+     "at": 320,
+     "duration": 150,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  54,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "sheet-accounts"
+  },
+  {
+   "clip": "M18,20 H46 A3,3 0 0 1 49,23 V51 A3,3 0 0 1 46,54 H18 A3,3 0 0 1 15,51 V23 A3,3 0 0 1 18,20 Z",
+   "stack": [
+    {
+     "layer": "layers/007.svg",
+     "piece": "sheet-accounts"
+    },
+    {
+     "layer": "layers/008.svg",
+     "piece": "cells"
+    }
+   ]
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "bar-high-up"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "bar-low-down"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "frame"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 770,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sheet-accounts",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "cells",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      64,
+      27.0
+     ],
+     "at": 0,
+     "duration": 541,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bar-high-up",
+   "origin": [
+    42.5,
+    52.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      -0.13
+     ],
+     "at": 360,
+     "duration": 190,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      1.15
+     ],
+     "at": 550,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bar-low-down",
+   "origin": [
+    38.5,
+    52.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      -0.13
+     ],
+     "at": 480,
+     "duration": 190,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      1.15
+     ],
+     "at": 670,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "frame",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "plug"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "plug"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "plug"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "plug"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "plug"
+  },
+  {
+   "rim": "M45,30L50,30A4,4 0 0 1 54,34L54,44A4,4 0 0 1 50,48L45,48A4,4 0 0 1 41,44L41,34A4,4 0 0 1 45,30Z",
+   "light": [
+    41,
+    30,
+    54,
+    48
+   ],
+   "piece": "plug"
+  },
+  {
+   "layer": "layers/017.svg",
+   "piece": "plug"
+  },
+  {
+   "layer": "layers/018.svg",
+   "piece": "plug"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "disk-0",
+   "origin": [
+    21,
+    18.5
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 500,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "disk-1",
+   "origin": [
+    21,
+    31.5
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "disk-2",
+   "origin": [
+    21,
+    44.5
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "plug",
+   "origin": [
+    50,
+    39
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      7,
+      0
+     ],
+     "at": 0,
+     "duration": 340,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.1,
+      0.8999999999999999
+     ],
+     "at": 340,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.8999999999999999,
+      1.1
+     ],
+     "at": 400,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

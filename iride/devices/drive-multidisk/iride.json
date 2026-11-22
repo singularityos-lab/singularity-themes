@@ -1,0 +1,297 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  57,
+  56
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "top"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "top"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "top"
+  },
+  {
+   "clip": "M13,9 H51 A6,6 0 0 1 57,15 V27 A6,6 0 0 1 51,33 H13 A6,6 0 0 1 7,27 V15 A6,6 0 0 1 13,9 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "top"
+    }
+   ]
+  },
+  {
+   "rim": "M13,9 H51 A6,6 0 0 1 57,15 V27 A6,6 0 0 1 51,33 H13 A6,6 0 0 1 7,27 V15 A6,6 0 0 1 13,9 Z",
+   "light": [
+    7.0,
+    9.0,
+    57.0,
+    33.0
+   ],
+   "piece": "top"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "top"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "indicator-top"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "line"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "bottom"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "bottom"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "bottom"
+  },
+  {
+   "clip": "M13,30 H51 A6,6 0 0 1 57,36 V48 A6,6 0 0 1 51,54 H13 A6,6 0 0 1 7,48 V36 A6,6 0 0 1 13,30 Z",
+   "stack": [
+    {
+     "layer": "layers/011.svg",
+     "piece": "bottom"
+    }
+   ]
+  },
+  {
+   "rim": "M13,30 H51 A6,6 0 0 1 57,36 V48 A6,6 0 0 1 51,54 H13 A6,6 0 0 1 7,48 V36 A6,6 0 0 1 13,30 Z",
+   "light": [
+    7.0,
+    30.0,
+    57.0,
+    54.0
+   ],
+   "piece": "bottom"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "bottom"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "indicator-bottom"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "line-bottom"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "top",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 710,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "indicator-top",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 60,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 110,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 480,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 530,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "bottom",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      7.0
+     ],
+     "at": 80,
+     "duration": 250,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.0
+     ],
+     "at": 330,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "indicator-bottom",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      7.0
+     ],
+     "at": 80,
+     "duration": 250,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.0
+     ],
+     "at": 330,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 440,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 490,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 600,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 650,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "line-bottom",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      7.0
+     ],
+     "at": 80,
+     "duration": 250,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.0
+     ],
+     "at": 330,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

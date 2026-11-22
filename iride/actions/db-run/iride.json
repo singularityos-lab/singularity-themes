@@ -1,0 +1,236 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "disk-0"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "disk-1"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "disk-2"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "badge"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "badge"
+  },
+  {
+   "rim": "M35,46A12,12 0 1 1 59,46A12,12 0 1 1 35,46Z",
+   "light": [
+    37,
+    36,
+    57,
+    56
+   ],
+   "piece": "badge"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "play"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "disk-0",
+   "origin": [
+    25,
+    17.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5
+     ],
+     "at": 140,
+     "duration": 170,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 140,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 600,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "disk-1",
+   "origin": [
+    25,
+    30.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5
+     ],
+     "at": 70,
+     "duration": 170,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 70,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "disk-2",
+   "origin": [
+    25,
+    43.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5
+     ],
+     "at": 0,
+     "duration": 170,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "badge",
+   "origin": [
+    47,
+    46
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 300,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.2,
+      0.2
+     ],
+     "at": 300,
+     "duration": 220,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "play",
+   "origin": [
+    47,
+    46
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -8,
+      0
+     ],
+     "at": 380,
+     "duration": 220,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 380,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

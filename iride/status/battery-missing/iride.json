@@ -1,0 +1,169 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "shell"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "shell"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "shell"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "shell"
+  },
+  {
+   "rim": "M52,25L53,25A2,2 0 0 1 55,27L55,34A2,2 0 0 1 53,36L52,36A2,2 0 0 1 50,34L50,27A2,2 0 0 1 52,25Z",
+   "light": [
+    50,
+    25,
+    55,
+    36
+   ],
+   "piece": "shell"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "slot"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "badge"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "badge"
+  },
+  {
+   "rim": "M36,47A12,12 0 1 1 60,47A12,12 0 1 1 36,47Z",
+   "light": [
+    38,
+    37,
+    58,
+    57
+   ],
+   "piece": "badge"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "badge"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "shell",
+   "origin": [
+    28,
+    34
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -5.0
+     ],
+     "at": 250,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      8.33
+     ],
+     "at": 310,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -5.0
+     ],
+     "at": 370,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      1.67
+     ],
+     "at": 430,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 510,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "slot",
+   "origin": [
+    27,
+    30
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 170,
+     "duration": 180,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "badge",
+   "origin": [
+    48,
+    47
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 290,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.2,
+      0.2
+     ],
+     "at": 290,
+     "duration": 220,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

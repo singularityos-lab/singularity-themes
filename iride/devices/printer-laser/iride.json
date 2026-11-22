@@ -1,0 +1,256 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  55,
+  58
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "body"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "body"
+  },
+  {
+   "clip": "M15,9 H49 A6,6 0 0 1 55,15 V50 A6,6 0 0 1 49,56 H15 A6,6 0 0 1 9,50 V15 A6,6 0 0 1 15,9 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "body"
+    }
+   ]
+  },
+  {
+   "clip": "M15,9 H49 A6,6 0 0 1 55,15 V50 A6,6 0 0 1 49,56 H15 A6,6 0 0 1 9,50 V15 A6,6 0 0 1 15,9 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "body"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "slot-cut"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "slot-cut"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "slot-cut"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "indicator"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "panel-board"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "panel-board"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "drawer"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "drawer"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "drawer"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "drawer"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "body",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 640,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      13.0
+     ],
+     "at": 200,
+     "duration": 320,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -2.0
+     ],
+     "at": 520,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    0.0,
+    0.0,
+    64.0,
+    16.5
+   ]
+  },
+  {
+   "piece": "slot-cut",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "indicator",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 60,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 110,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 260,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 310,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 460,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 510,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "panel-board",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "drawer",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -3.5
+     ],
+     "at": 0,
+     "duration": 120,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      3.5
+     ],
+     "at": 120,
+     "duration": 220,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

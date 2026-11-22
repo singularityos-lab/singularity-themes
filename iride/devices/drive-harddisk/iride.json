@@ -1,0 +1,299 @@
+{
+ "format": 1,
+ "canvas": [
+  236,
+  236
+ ],
+ "box": [
+  0,
+  0,
+  220,
+  210
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 5,
+    "blur": 6,
+    "color": "#0d1a33",
+    "opacity": 0.5,
+    "region": [
+     -20,
+     -20,
+     276,
+     276
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "disc"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "disc"
+    }
+   ]
+  },
+  {
+   "clip": "M40 52H196A16 16 0 0 1 212 68V154A16 16 0 0 1 196 170H40A16 16 0 0 1 24 154V68A16 16 0 0 1 40 52Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "disc"
+    },
+    {
+     "layer": "layers/003.svg",
+     "piece": "disc"
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "data"
+    },
+    {
+     "layer": "layers/005.svg",
+     "piece": "data"
+    },
+    {
+     "layer": "layers/006.svg",
+     "piece": "data"
+    },
+    {
+     "layer": "layers/007.svg",
+     "piece": "data"
+    },
+    {
+     "layer": "layers/008.svg",
+     "piece": "sockets"
+    },
+    {
+     "layer": "layers/009.svg",
+     "piece": "sockets"
+    },
+    {
+     "layer": "layers/010.svg",
+     "piece": "sockets"
+    },
+    {
+     "layer": "layers/011.svg",
+     "piece": "sockets"
+    },
+    {
+     "layer": "layers/012.svg",
+     "piece": "sockets"
+    },
+    {
+     "layer": "layers/013.svg",
+     "piece": "sockets"
+    },
+    {
+     "layer": "layers/014.svg",
+     "piece": "indicator"
+    },
+    {
+     "layer": "layers/015.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/016.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/017.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/018.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/019.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/020.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/021.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/022.svg",
+     "piece": "screws"
+    },
+    {
+     "layer": "layers/023.svg",
+     "piece": "screws"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "disc",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "data",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      66.0,
+      236
+     ],
+     "at": 60,
+     "duration": 940,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sockets",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "indicator",
+   "origin": [
+    188.0,
+    150.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 0,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 50,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 140,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 190,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 280,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 330,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 420,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 470,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.85
+     ],
+     "at": 560,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.15
+     ],
+     "at": 610,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.4,
+      0.4
+     ],
+     "at": 560,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.6,
+      1.6
+     ],
+     "at": 640,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "screws",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": []
+  }
+ ]
+}

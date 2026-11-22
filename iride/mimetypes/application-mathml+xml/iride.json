@@ -1,0 +1,282 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  54,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "root"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "x"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "y"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "top"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "fraction"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "bottom"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 860,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "root",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      16.0,
+      64
+     ],
+     "at": 0,
+     "duration": 544,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "x",
+   "origin": [
+    33.0,
+    27.3
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.13,
+      -0.13
+     ],
+     "at": 300,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.18,
+      1.18
+     ],
+     "at": 430,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 300,
+     "duration": 40,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "y",
+   "origin": [
+    41.0,
+    27.3
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.13,
+      -0.13
+     ],
+     "at": 380,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.18,
+      1.18
+     ],
+     "at": 510,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 380,
+     "duration": 40,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "top",
+   "origin": [
+    32.0,
+    42.2
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.13,
+      -0.13
+     ],
+     "at": 460,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.18,
+      1.18
+     ],
+     "at": 590,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 460,
+     "duration": 40,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "fraction",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      18.0,
+      64
+     ],
+     "at": 480,
+     "duration": 296,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bottom",
+   "origin": [
+    32.0,
+    53.6
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.13,
+      -0.13
+     ],
+     "at": 630,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.18,
+      1.18
+     ],
+     "at": 760,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 630,
+     "duration": 40,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

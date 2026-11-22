@@ -1,0 +1,193 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "rim": "M13,4L39,4L53,18L53,56A4,4 0 0 1 49,60L13,60A4,4 0 0 1 9,56L9,8A4,4 0 0 1 13,4Z",
+   "light": [
+    9,
+    4,
+    53,
+    60
+   ],
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "rise"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "fall"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "tail"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "cross"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 820,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "rise",
+   "origin": [
+    32,
+    36
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      14,
+      43,
+      15,
+      45
+     ],
+     "at": 0,
+     "duration": 300,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 0,
+     "duration": 35,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "fall",
+   "origin": [
+    32,
+    36
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      32,
+      19,
+      39,
+      23
+     ],
+     "at": 300,
+     "duration": 200,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 300,
+     "duration": 35,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "tail",
+   "origin": [
+    32,
+    36
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      31,
+      44,
+      36,
+      50
+     ],
+     "at": 500,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 500,
+     "duration": 35,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "cross",
+   "origin": [
+    32,
+    36
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      18,
+      30,
+      22,
+      41
+     ],
+     "at": 590,
+     "duration": 230,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 590,
+     "duration": 35,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

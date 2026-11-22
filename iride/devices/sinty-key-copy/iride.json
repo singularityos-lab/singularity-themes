@@ -1,0 +1,323 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  2,
+  0,
+  62,
+  61
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "stick"
+  },
+  {
+   "clip": "M26,20 H51 A7,7 0 0 1 58,27 V37 A7,7 0 0 1 51,44 H26 A7,7 0 0 1 19,37 V27 A7,7 0 0 1 26,20 Z",
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "stick"
+    }
+   ]
+  },
+  {
+   "rim": "M26,20 H51 A7,7 0 0 1 58,27 V37 A7,7 0 0 1 51,44 H26 A7,7 0 0 1 19,37 V27 A7,7 0 0 1 26,20 Z",
+   "light": [
+    19.0,
+    20.0,
+    58.0,
+    44.0
+   ],
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "logo"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "logo"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "cut"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "insignia"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "insignia"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "insignia"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "mark"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "mark"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "stick",
+   "origin": [
+    35.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      11.5,
+      0.0
+     ],
+     "at": 0,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -2.5,
+      0.0
+     ],
+     "at": 200,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 840,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "logo",
+   "origin": [
+    35.2,
+    32.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      11.5,
+      0.0
+     ],
+     "at": 0,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -2.5,
+      0.0
+     ],
+     "at": 200,
+     "duration": 130,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -360
+     ],
+     "at": 220,
+     "duration": 420,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "cut",
+   "origin": [
+    35.2,
+    32.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      11.5,
+      0.0
+     ],
+     "at": 0,
+     "duration": 200,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -2.5,
+      0.0
+     ],
+     "at": 200,
+     "duration": 130,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "insignia",
+   "origin": [
+    49.5,
+    48.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.08,
+      0.08
+     ],
+     "at": 300,
+     "duration": 140,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.12
+     ],
+     "at": 440,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 300,
+     "duration": 50,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "mark",
+   "origin": [
+    49.5,
+    48.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.08,
+      0.08
+     ],
+     "at": 300,
+     "duration": 140,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.12
+     ],
+     "at": 440,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 300,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -22.0
+     ],
+     "at": 480,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      40.33333
+     ],
+     "at": 540,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -33.0
+     ],
+     "at": 600,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      25.66667
+     ],
+     "at": 660,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -18.33333
+     ],
+     "at": 720,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      7.33333
+     ],
+     "at": 780,
+     "duration": 60,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

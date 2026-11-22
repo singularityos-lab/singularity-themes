@@ -1,0 +1,309 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cabinet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cabinet"
+  },
+  {
+   "rim": "M15,6L35,6A6,6 0 0 1 41,12L41,51A6,6 0 0 1 35,57L15,57A6,6 0 0 1 9,51L9,12A6,6 0 0 1 15,6Z",
+   "light": [
+    9,
+    6,
+    41,
+    57
+   ],
+   "piece": "cabinet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "tweeter"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "tweeter"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "tweeter"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "woofer"
+  },
+  {
+   "rim": "M15,39A10,10 0 1 1 35,39A10,10 0 1 1 15,39Z",
+   "light": [
+    15,
+    29,
+    35,
+    49
+   ],
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "wave-0"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "wave-0"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "wave-0"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "wave-1"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "wave-1"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "wave-1"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cabinet",
+   "origin": [
+    25,
+    57
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.9750000000000001,
+      0.9750000000000001
+     ],
+     "at": 60,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.025,
+      1.025
+     ],
+     "at": 115,
+     "duration": 85,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.9750000000000001,
+      0.9750000000000001
+     ],
+     "at": 300,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.025,
+      1.025
+     ],
+     "at": 355,
+     "duration": 85,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 580,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "tweeter",
+   "origin": [
+    25,
+    18
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.8500000000000001,
+      0.8500000000000001
+     ],
+     "at": 60,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 115,
+     "duration": 85,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.8500000000000001,
+      0.8500000000000001
+     ],
+     "at": 300,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 355,
+     "duration": 85,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "woofer",
+   "origin": [
+    25,
+    39
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.8500000000000001,
+      0.8500000000000001
+     ],
+     "at": 60,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 115,
+     "duration": 85,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.8500000000000001,
+      0.8500000000000001
+     ],
+     "at": 300,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 355,
+     "duration": 85,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-0",
+   "origin": [
+    41,
+    35
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 160,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 160,
+     "duration": 260,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "wave-1",
+   "origin": [
+    41,
+    35
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 320,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 320,
+     "duration": 260,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "table"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "table"
+  },
+  {
+   "rim": "M12,9L52,9A7,7 0 0 1 59,16L59,49A7,7 0 0 1 52,56L12,56A7,7 0 0 1 5,49L5,16A7,7 0 0 1 12,9Z",
+   "light": [
+    5,
+    9,
+    59,
+    56
+   ],
+   "piece": "table"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "header"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "header"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "row-0"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "row-0"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "row-0"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "row-1"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "row-1"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "row-1"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "row-2"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "row-2"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "row-2"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "table",
+   "origin": [
+    32,
+    33
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 620,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "header",
+   "origin": [
+    32,
+    17
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "row-0",
+   "origin": [
+    32,
+    30
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      9,
+      27,
+      9.5,
+      33
+     ],
+     "at": 120,
+     "duration": 180,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "row-1",
+   "origin": [
+    32,
+    39
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      9,
+      36,
+      9.5,
+      42
+     ],
+     "at": 280,
+     "duration": 180,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "row-2",
+   "origin": [
+    32,
+    48
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      9,
+      45,
+      9.5,
+      51
+     ],
+     "at": 440,
+     "duration": 180,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

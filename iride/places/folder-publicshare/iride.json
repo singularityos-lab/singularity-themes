@@ -1,0 +1,153 @@
+{
+ "format": 1,
+ "canvas": [
+  236,
+  236
+ ],
+ "box": [
+  0,
+  0,
+  236,
+  215
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "back"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "back"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "back"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "front"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "symbol"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "back",
+   "origin": [
+    118.0,
+    118.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 620,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "front",
+   "origin": [
+    118.0,
+    214.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      1.16
+     ],
+     "at": 0,
+     "duration": 190,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.84
+     ],
+     "at": 340,
+     "duration": 200,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "symbol",
+   "origin": [
+    119.0,
+    146.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.1,
+      -0.1
+     ],
+     "at": 200,
+     "duration": 180,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.38,
+      1.38
+     ],
+     "at": 380,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      0.92
+     ],
+     "at": 500,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -120
+     ],
+     "at": 200,
+     "duration": 300,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 170,
+     "duration": 70,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

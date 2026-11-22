@@ -1,0 +1,186 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  58,
+  55
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "frame"
+  },
+  {
+   "clip": "M12.0,14.5 H52.0 A2.5,2.5 0 0 1 54.5,17.0 V47.0 A2.5,2.5 0 0 1 52.0,49.5 H12.0 A2.5,2.5 0 0 1 9.5,47.0 V17.0 A2.5,2.5 0 0 1 12.0,14.5 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "hill"
+    },
+    {
+     "layer": "layers/004.svg",
+     "piece": "mountain"
+    }
+   ]
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sun"
+  },
+  {
+   "clip": "M11,11 H53 A5,5 0 0 1 58,16 V48 A5,5 0 0 1 53,53 H11 A5,5 0 0 1 6,48 V16 A5,5 0 0 1 11,11 Z",
+   "stack": [
+    {
+     "layer": "layers/006.svg",
+     "piece": "glass"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "frame",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 700,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "hill",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      15.0
+     ],
+     "at": 0,
+     "duration": 330,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.0
+     ],
+     "at": 330,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    9.0,
+    14.0,
+    55.0,
+    49.5
+   ]
+  },
+  {
+   "piece": "mountain",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      15.0
+     ],
+     "at": 100,
+     "duration": 330,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.0
+     ],
+     "at": 430,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    9.0,
+    14.0,
+    55.0,
+    49.5
+   ]
+  },
+  {
+   "piece": "sun",
+   "origin": [
+    44.5,
+    23.6
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -8.0,
+      27.0
+     ],
+     "at": 200,
+     "duration": 400,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -1.0
+     ],
+     "at": 600,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    9.0,
+    14.0,
+    55.0,
+    49.5
+   ]
+  },
+  {
+   "piece": "glass",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  61,
+  54
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "tower"
+  },
+  {
+   "clip": "M7.2,13 H17.8 A3.2,3.2 0 0 1 21,16.2 V48.8 A3.2,3.2 0 0 1 17.8,52 H7.2 A3.2,3.2 0 0 1 4,48.8 V16.2 A3.2,3.2 0 0 1 7.2,13 Z",
+   "stack": [
+    {
+     "layer": "layers/007.svg",
+     "piece": "tower"
+    }
+   ]
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "tower"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "button"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "button"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "grid"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "grid"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "grid"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "grid"
+  },
+  {
+   "clip": "M28,14 H57 A4,4 0 0 1 61,18 V37 A4,4 0 0 1 57,41 H28 A4,4 0 0 1 24,37 V18 A4,4 0 0 1 28,14 Z",
+   "stack": [
+    {
+     "layer": "layers/017.svg",
+     "piece": "grid"
+    }
+   ]
+  },
+  {
+   "layer": "layers/018.svg",
+   "piece": "grid"
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/020.svg",
+   "piece": "screen"
+  },
+  {
+   "clip": "M28.4,16.6 H56.6 A1.8,1.8 0 0 1 58.4,18.4 V36.6 A1.8,1.8 0 0 1 56.6,38.4 H28.4 A1.8,1.8 0 0 1 26.6,36.6 V18.4 A1.8,1.8 0 0 1 28.4,16.6 Z",
+   "stack": [
+    {
+     "layer": "layers/021.svg",
+     "piece": "screen"
+    }
+   ]
+  }
+ ],
+ "motion": [
+  {
+   "piece": "tower",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 500,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "button",
+   "origin": [
+    12.5,
+    30.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.45,
+      1.45
+     ],
+     "at": 40,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.05,
+      0.05
+     ],
+     "at": 110,
+     "duration": 110,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 220,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "grid",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "screen",
+   "origin": [
+    42.0,
+    27.5
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 280,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1.65
+     ],
+     "at": 350,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0.35
+     ],
+     "at": 400,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1,
+      0.1
+     ],
+     "at": 280,
+     "duration": 140,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

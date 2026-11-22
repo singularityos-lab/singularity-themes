@@ -1,0 +1,186 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "screen"
+  },
+  {
+   "rim": "M21,53L43,53A2,2 0 0 1 45,55L45,56A2,2 0 0 1 43,58L21,58A2,2 0 0 1 19,56L19,55A2,2 0 0 1 21,53Z",
+   "light": [
+    19,
+    53,
+    45,
+    58
+   ],
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "screen"
+  },
+  {
+   "rim": "M10,5L54,5A6,6 0 0 1 60,11L60,41A6,6 0 0 1 54,47L10,47A6,6 0 0 1 4,41L4,11A6,6 0 0 1 10,5Z",
+   "light": [
+    4,
+    5,
+    60,
+    47
+   ],
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "screen"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "dim"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "shackle"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "shackle"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "shackle"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "lock"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "lock"
+  },
+  {
+   "rim": "M25,24L39,24A4,4 0 0 1 43,28L43,36A4,4 0 0 1 39,40L25,40A4,4 0 0 1 21,36L21,28A4,4 0 0 1 25,24Z",
+   "light": [
+    21,
+    24,
+    43,
+    40
+   ],
+   "piece": "lock"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "lock"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "screen",
+   "origin": [
+    32,
+    28
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 520,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "dim",
+   "origin": [
+    32,
+    26
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 260,
+     "duration": 260,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "shackle",
+   "origin": [
+    38,
+    26
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      28
+     ],
+     "at": 60,
+     "duration": 250,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "lock",
+   "origin": [
+    32,
+    31
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.8500000000000001,
+      0.8500000000000001
+     ],
+     "at": 270,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 325,
+     "duration": 85,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

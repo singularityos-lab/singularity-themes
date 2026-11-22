@@ -1,0 +1,206 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  59,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "new"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "new"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "new"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "plus-mark"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 680,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "lines",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      64,
+      21.0
+     ],
+     "at": 0,
+     "duration": 665,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "new",
+   "origin": [
+    45.5,
+    47.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.05,
+      0.05
+     ],
+     "at": 240,
+     "duration": 160,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 400,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 240,
+     "duration": 50,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "plus-mark",
+   "origin": [
+    46.0,
+    47.5
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -180
+     ],
+     "at": 260,
+     "duration": 420,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.05,
+      0.05
+     ],
+     "at": 240,
+     "duration": 160,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.15,
+      1.15
+     ],
+     "at": 400,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 240,
+     "duration": 50,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

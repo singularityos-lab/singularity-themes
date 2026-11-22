@@ -1,0 +1,276 @@
+{
+ "format": 1,
+ "canvas": [
+  128,
+  128
+ ],
+ "box": [
+  0,
+  0,
+  128,
+  128
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 2.8,
+    "blur": 3.2,
+    "color": "#4c330d",
+    "opacity": 0.42,
+    "region": [
+     -12,
+     -12,
+     152,
+     152
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg",
+     "piece": "price-tag"
+    },
+    {
+     "layer": "layers/001.svg",
+     "piece": "price-tag"
+    }
+   ]
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "price-tag"
+  },
+  {
+   "clip": "M22 28H90Q94 28 97 31L118 60Q121 64 118 68L97 97Q94 100 90 100H22Q12 100 12 90V38Q12 28 22 28Z",
+   "stack": [
+    {
+     "rim": "M22 28H90Q94 28 97 31L118 60Q121 64 118 68L97 97Q94 100 90 100H22Q12 100 12 90V38Q12 28 22 28Z",
+     "light": [
+      12.0,
+      28.0,
+      121.0,
+      100.0
+     ],
+     "piece": "price-tag"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "price-tag"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "price-tag"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/017.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/018.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "code"
+  },
+  {
+   "layer": "layers/020.svg",
+   "piece": "code"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "price-tag",
+   "origin": [
+    100.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -9.0
+     ],
+     "at": 380,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      16.5
+     ],
+     "at": 455,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -13.5
+     ],
+     "at": 530,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      10.5
+     ],
+     "at": 605,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -7.5
+     ],
+     "at": 680,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      3.0
+     ],
+     "at": 755,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 830,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "code",
+   "origin": [
+    100.0,
+    64.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      24.0,
+      128
+     ],
+     "at": 0,
+     "duration": 578,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -9.0
+     ],
+     "at": 380,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      16.5
+     ],
+     "at": 455,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -13.5
+     ],
+     "at": 530,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      10.5
+     ],
+     "at": 605,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -7.5
+     ],
+     "at": 680,
+     "duration": 75,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      3.0
+     ],
+     "at": 755,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  54,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "round"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "round"
+  },
+  {
+   "clip": "M20,34 A12,12 0 1 1 44,34 A12,12 0 1 1 20,34 Z",
+   "stack": [
+    {
+     "layer": "layers/008.svg",
+     "piece": "round"
+    }
+   ]
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "round"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "head"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "shoulders"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "name"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 902,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "round",
+   "origin": [
+    32.0,
+    37.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.91,
+      0.91
+     ],
+     "at": 400,
+     "duration": 80,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.09,
+      1.09
+     ],
+     "at": 480,
+     "duration": 160,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "head",
+   "origin": [
+    32.0,
+    30.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -2.5
+     ],
+     "at": 0,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      4.5
+     ],
+     "at": 120,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -3.5
+     ],
+     "at": 240,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      1.5
+     ],
+     "at": 360,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "shoulders",
+   "origin": [
+    31.5,
+    41.0
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.88,
+      0.85
+     ],
+     "at": 200,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.15
+     ],
+     "at": 300,
+     "duration": 120,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "name",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      22.0,
+      64
+     ],
+     "at": 440,
+     "duration": 462,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

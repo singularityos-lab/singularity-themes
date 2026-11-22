@@ -1,0 +1,201 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  54,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "sheet"
+  },
+  {
+   "clip": "M15,4 H41 L53,16 V57 A3,3 0 0 1 50,60 H14 A3,3 0 0 1 11,57 V8 A4,4 0 0 1 15,4 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "sheet"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "opening"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "closing"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "bar"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 520,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "lines",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      17.0,
+      64
+     ],
+     "at": 0,
+     "duration": 470,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "opening",
+   "origin": [
+    19.75,
+    42.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      12.5,
+      0.0
+     ],
+     "at": 120,
+     "duration": 240,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -1.5,
+      0.0
+     ],
+     "at": 360,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "closing",
+   "origin": [
+    44.25,
+    42.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -12.5,
+      0.0
+     ],
+     "at": 120,
+     "duration": 240,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      1.5,
+      0.0
+     ],
+     "at": 360,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "bar",
+   "origin": [
+    32.0,
+    42.5
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      -0.15,
+      -0.15
+     ],
+     "at": 260,
+     "duration": 160,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.2,
+      1.2
+     ],
+     "at": 420,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -90
+     ],
+     "at": 260,
+     "duration": 260,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,201 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  53,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "clock"
+  },
+  {
+   "clip": "M22,14 H42 A8,8 0 0 1 50,22 V42 A8,8 0 0 1 42,50 H22 A8,8 0 0 1 14,42 V22 A8,8 0 0 1 22,14 Z",
+   "stack": [
+    {
+     "layer": "layers/006.svg",
+     "piece": "clock"
+    }
+   ]
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "clock"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "clock"
+  },
+  {
+   "clip": "M23,17 H41 A6,6 0 0 1 47,23 V41 A6,6 0 0 1 41,47 H23 A6,6 0 0 1 17,41 V23 A6,6 0 0 1 23,17 Z",
+   "stack": [
+    {
+     "layer": "layers/010.svg",
+     "piece": "clock"
+    }
+   ]
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "hands"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "clock",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -6
+     ],
+     "at": 520,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      12
+     ],
+     "at": 570,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -10
+     ],
+     "at": 630,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      6
+     ],
+     "at": 690,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -2
+     ],
+     "at": 750,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 810,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "hands",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -6
+     ],
+     "at": 520,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      12
+     ],
+     "at": 570,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -10
+     ],
+     "at": 630,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      6
+     ],
+     "at": 690,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -2
+     ],
+     "at": 750,
+     "duration": 60,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -360
+     ],
+     "at": 0,
+     "duration": 520,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

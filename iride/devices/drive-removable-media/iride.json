@@ -1,0 +1,171 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  58,
+  48
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "stick"
+  },
+  {
+   "clip": "M26,20 H51 A7,7 0 0 1 58,27 V37 A7,7 0 0 1 51,44 H26 A7,7 0 0 1 19,37 V27 A7,7 0 0 1 26,20 Z",
+   "stack": [
+    {
+     "layer": "layers/005.svg",
+     "piece": "stick"
+    }
+   ]
+  },
+  {
+   "rim": "M26,20 H51 A7,7 0 0 1 58,27 V37 A7,7 0 0 1 51,44 H26 A7,7 0 0 1 19,37 V27 A7,7 0 0 1 26,20 Z",
+   "light": [
+    19.0,
+    20.0,
+    58.0,
+    44.0
+   ],
+   "piece": "stick"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "indicator"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "indicator"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "stick",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      13.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 220,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -3.0,
+      0.0
+     ],
+     "at": 220,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 820,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "indicator",
+   "origin": [
+    49.5,
+    32.5
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      13.0,
+      0.0
+     ],
+     "at": 0,
+     "duration": 220,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      -3.0,
+      0.0
+     ],
+     "at": 220,
+     "duration": 120,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.3,
+      0.3
+     ],
+     "at": 360,
+     "duration": 73,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.7,
+      1.7
+     ],
+     "at": 433,
+     "duration": 147,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.5,
+      0.5
+     ],
+     "at": 600,
+     "duration": 73,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.5,
+      1.5
+     ],
+     "at": 673,
+     "duration": 147,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

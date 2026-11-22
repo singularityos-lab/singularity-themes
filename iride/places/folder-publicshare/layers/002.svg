@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="236" viewBox="0 0 236 236" fill="none"><defs><linearGradient id="fback" x1="94" y1="42" x2="94" y2="74" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00315f" /><stop offset="1" stop-color="#001d3c" /></linearGradient>
+<clipPath id="fclip"><rect width="236" height="236" /></clipPath>
+</defs><g clip-path="url(#fclip)" transform="translate(0 6)"><path d="M217 67.33C217 61.81 212.52 57.33 207 57.33H114.83C112 57.33 109.3 56.14 107.41 54.04L103.08 49.25C98.91 44.63 92.98 42 86.76 42H14.7C13.16 42 11.63 42.25 10.17 42.73C5.13 44.41 1.43 48.74 0.56 53.98L0 57.33V169C0 174.52 4.48 179 10 179H207C212.52 179 217 174.52 217 169Z" fill="url(#fback)" />
+</g></svg>

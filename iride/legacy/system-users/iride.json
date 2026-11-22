@@ -1,0 +1,228 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "person-0"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "person-0"
+  },
+  {
+   "rim": "M25,56C25,36 31,32 43,32C55,32 61,36 61,56Z",
+   "light": [
+    25,
+    32,
+    61,
+    56
+   ],
+   "piece": "person-0"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "person-0"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "person-0"
+  },
+  {
+   "rim": "M32,19A11,11 0 1 1 54,19A11,11 0 1 1 32,19Z",
+   "light": [
+    32,
+    8,
+    54,
+    30
+   ],
+   "piece": "person-0"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "person-1"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "person-1"
+  },
+  {
+   "rim": "M6,56C6,41 12,37 24,37C36,37 42,41 42,56Z",
+   "light": [
+    6,
+    37,
+    42,
+    56
+   ],
+   "piece": "person-1"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "person-1"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "person-1"
+  },
+  {
+   "rim": "M13,24A11,11 0 1 1 35,24A11,11 0 1 1 13,24Z",
+   "light": [
+    13,
+    13,
+    35,
+    35
+   ],
+   "piece": "person-1"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "person-0",
+   "origin": [
+    43,
+    57
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      5
+     ],
+     "at": 0,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5
+     ],
+     "at": 110,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -5.0
+     ],
+     "at": 0,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      8.33
+     ],
+     "at": 70,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -5.0
+     ],
+     "at": 140,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      1.67
+     ],
+     "at": 210,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 450,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "person-1",
+   "origin": [
+    24,
+    57
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      5
+     ],
+     "at": 170,
+     "duration": 110,
+     "ease": "linear"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -5
+     ],
+     "at": 280,
+     "duration": 150,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -5.0
+     ],
+     "at": 170,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      8.33
+     ],
+     "at": 240,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -5.0
+     ],
+     "at": 310,
+     "duration": 70,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      1.67
+     ],
+     "at": 380,
+     "duration": 70,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

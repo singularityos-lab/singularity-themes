@@ -1,0 +1,130 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "frame"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "door"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "door"
+  },
+  {
+   "rim": "M11,9L28,13L28,59L11,54Z",
+   "light": [
+    11,
+    9,
+    28,
+    59
+   ],
+   "piece": "door"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "door"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "arrow"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "arrow"
+  },
+  {
+   "rim": "M31,27L44,27L44,17L61,32L44,47L44,37L31,37Z",
+   "light": [
+    31,
+    17,
+    61,
+    47
+   ],
+   "piece": "arrow"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "frame",
+   "origin": [
+    22,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 550,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "door",
+   "origin": [
+    11,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.3,
+      1
+     ],
+     "at": 0,
+     "duration": 270,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "arrow",
+   "origin": [
+    44,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -20,
+      0
+     ],
+     "at": 190,
+     "duration": 360,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 190,
+     "duration": 90,
+     "ease": "linear"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "tile-0"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "tile-0"
+  },
+  {
+   "rim": "M12,6L24,6A6,6 0 0 1 30,12L30,24A6,6 0 0 1 24,30L12,30A6,6 0 0 1 6,24L6,12A6,6 0 0 1 12,6Z",
+   "light": [
+    6,
+    6,
+    30,
+    30
+   ],
+   "piece": "tile-0"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "tile-1"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "tile-1"
+  },
+  {
+   "rim": "M40,6L52,6A6,6 0 0 1 58,12L58,24A6,6 0 0 1 52,30L40,30A6,6 0 0 1 34,24L34,12A6,6 0 0 1 40,6Z",
+   "light": [
+    34,
+    6,
+    58,
+    30
+   ],
+   "piece": "tile-1"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "tile-2"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "tile-2"
+  },
+  {
+   "rim": "M12,34L24,34A6,6 0 0 1 30,40L30,52A6,6 0 0 1 24,58L12,58A6,6 0 0 1 6,52L6,40A6,6 0 0 1 12,34Z",
+   "light": [
+    6,
+    34,
+    30,
+    58
+   ],
+   "piece": "tile-2"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "tile-3"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "tile-3"
+  },
+  {
+   "rim": "M40,34L52,34A6,6 0 0 1 58,40L58,52A6,6 0 0 1 52,58L40,58A6,6 0 0 1 34,52L34,40A6,6 0 0 1 40,34Z",
+   "light": [
+    34,
+    34,
+    58,
+    58
+   ],
+   "piece": "tile-3"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "tile-0",
+   "origin": [
+    18,
+    18
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      0
+     ],
+     "at": 0,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.3,
+      0.4
+     ],
+     "at": 0,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 590,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "tile-1",
+   "origin": [
+    46,
+    18
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -15,
+      16
+     ],
+     "at": 70,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.3,
+      0.4
+     ],
+     "at": 70,
+     "duration": 380,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "tile-2",
+   "origin": [
+    18,
+    46
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0,
+      -9
+     ],
+     "at": 140,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.3,
+      0.4
+     ],
+     "at": 140,
+     "duration": 380,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "tile-3",
+   "origin": [
+    46,
+    46
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      -15,
+      7
+     ],
+     "at": 210,
+     "duration": 380,
+     "ease": "spring"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.3,
+      0.4
+     ],
+     "at": 210,
+     "duration": 380,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

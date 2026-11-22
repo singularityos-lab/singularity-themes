@@ -1,0 +1,230 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  54,
+  62
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "tablet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "tablet"
+  },
+  {
+   "clip": "M16,8 H48 A6,6 0 0 1 54,14 V54 A6,6 0 0 1 48,60 H16 A6,6 0 0 1 10,54 V14 A6,6 0 0 1 16,8 Z",
+   "stack": [
+    {
+     "layer": "layers/002.svg",
+     "piece": "tablet"
+    }
+   ]
+  },
+  {
+   "rim": "M16,8 H48 A6,6 0 0 1 54,14 V54 A6,6 0 0 1 48,60 H16 A6,6 0 0 1 10,54 V14 A6,6 0 0 1 16,8 Z",
+   "light": [
+    10.0,
+    8.0,
+    54.0,
+    60.0
+   ],
+   "piece": "tablet"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "sheet"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "lines"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "ring"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "ring"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "spring"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "spring"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "spring"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "spring"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "tablet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": []
+  },
+  {
+   "piece": "sheet",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      -42.0
+     ],
+     "at": 120,
+     "duration": 280,
+     "ease": "out"
+    },
+    {
+     "kind": "translate",
+     "from": [
+      0.0,
+      2.0
+     ],
+     "at": 400,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ],
+   "clip": [
+    0.0,
+    12.0,
+    64.0,
+    64.0
+   ]
+  },
+  {
+   "piece": "lines",
+   "origin": [
+    32.0,
+    32.0
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      0,
+      0,
+      64,
+      25.0
+     ],
+     "at": 420,
+     "duration": 546,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "ring",
+   "origin": [
+    32.0,
+    8.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      10
+     ],
+     "at": 0,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -10
+     ],
+     "at": 330,
+     "duration": 130,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "spring",
+   "origin": [
+    32.0,
+    8.0
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      10
+     ],
+     "at": 0,
+     "duration": 100,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -10
+     ],
+     "at": 330,
+     "duration": 130,
+     "ease": "out"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.92,
+      1.15
+     ],
+     "at": 380,
+     "duration": 50,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      1.08,
+      0.85
+     ],
+     "at": 430,
+     "duration": 110,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

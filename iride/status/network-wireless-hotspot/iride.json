@@ -1,0 +1,205 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "phone"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "phone"
+  },
+  {
+   "rim": "M14,12L30,12A6,6 0 0 1 36,18L36,53A6,6 0 0 1 30,59L14,59A6,6 0 0 1 8,53L8,18A6,6 0 0 1 14,12Z",
+   "light": [
+    8,
+    12,
+    36,
+    59
+   ],
+   "piece": "phone"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "phone"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "phone"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "phone"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "wave-0"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "wave-0"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "wave-0"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "wave-1"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "wave-1"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "wave-1"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "wave-2"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "wave-2"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "wave-2"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "phone",
+   "origin": [
+    22,
+    36
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.05,
+      1.05
+     ],
+     "at": 40,
+     "duration": 55,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.95,
+      0.95
+     ],
+     "at": 95,
+     "duration": 85,
+     "ease": "linear"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 610,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "wave-0",
+   "origin": [
+    34,
+    28
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 120,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.55,
+      0.55
+     ],
+     "at": 120,
+     "duration": 230,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "wave-1",
+   "origin": [
+    34,
+    28
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 250,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.55,
+      0.55
+     ],
+     "at": 250,
+     "duration": 230,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "wave-2",
+   "origin": [
+    34,
+    28
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 380,
+     "duration": 80,
+     "ease": "linear"
+    },
+    {
+     "kind": "scale",
+     "from": [
+      0.55,
+      0.55
+     ],
+     "at": 380,
+     "duration": 230,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}
