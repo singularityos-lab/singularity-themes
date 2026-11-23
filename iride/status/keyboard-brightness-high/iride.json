@@ -1,0 +1,447 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "keyboard"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "keyboard"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "keyboard"
+  },
+  {
+   "clip": "M9,16 H55 A6,6 0 0 1 61,22 V42 A6,6 0 0 1 55,48 H9 A6,6 0 0 1 3,42 V22 A6,6 0 0 1 9,16 Z",
+   "stack": [
+    {
+     "layer": "layers/003.svg",
+     "piece": "keyboard"
+    }
+   ]
+  },
+  {
+   "rim": "M9,16 H55 A6,6 0 0 1 61,22 V42 A6,6 0 0 1 55,48 H9 A6,6 0 0 1 3,42 V22 A6,6 0 0 1 9,16 Z",
+   "light": [
+    3.0,
+    16.0,
+    61.0,
+    48.0
+   ],
+   "piece": "keyboard"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "keys-5"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "keys-5"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "keys-5"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "keys-5"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "keys-5"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "keys-10"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "keys-10"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "keys-10"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "keys-10"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "keys-10"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "keys-15"
+  },
+  {
+   "layer": "layers/015.svg",
+   "piece": "keys-15"
+  },
+  {
+   "layer": "layers/016.svg",
+   "piece": "keys-15"
+  },
+  {
+   "layer": "layers/017.svg",
+   "piece": "keys-15"
+  },
+  {
+   "layer": "layers/018.svg",
+   "piece": "keys-15"
+  },
+  {
+   "layer": "layers/019.svg",
+   "piece": "keys-20"
+  },
+  {
+   "layer": "layers/020.svg",
+   "piece": "keys-20"
+  },
+  {
+   "layer": "layers/021.svg",
+   "piece": "keys-20"
+  },
+  {
+   "layer": "layers/022.svg",
+   "piece": "keys-20"
+  },
+  {
+   "layer": "layers/023.svg",
+   "piece": "keys-20"
+  },
+  {
+   "layer": "layers/024.svg",
+   "piece": "keys-25"
+  },
+  {
+   "layer": "layers/025.svg",
+   "piece": "keys-25"
+  },
+  {
+   "layer": "layers/026.svg",
+   "piece": "keys-25"
+  },
+  {
+   "layer": "layers/027.svg",
+   "piece": "keys-25"
+  },
+  {
+   "layer": "layers/028.svg",
+   "piece": "keys-25"
+  },
+  {
+   "layer": "layers/029.svg",
+   "piece": "keys-30"
+  },
+  {
+   "layer": "layers/030.svg",
+   "piece": "keys-30"
+  },
+  {
+   "layer": "layers/031.svg",
+   "piece": "keys-30"
+  },
+  {
+   "layer": "layers/032.svg",
+   "piece": "keys-30"
+  },
+  {
+   "layer": "layers/033.svg",
+   "piece": "keys-34"
+  },
+  {
+   "layer": "layers/034.svg",
+   "piece": "glow"
+  },
+  {
+   "layer": "layers/035.svg",
+   "piece": "sun"
+  },
+  {
+   "layer": "layers/036.svg",
+   "piece": "sun"
+  },
+  {
+   "layer": "layers/037.svg",
+   "piece": "sun-rays"
+  },
+  {
+   "layer": "layers/038.svg",
+   "piece": "sun-rays"
+  },
+  {
+   "layer": "layers/039.svg",
+   "piece": "sun-rays"
+  },
+  {
+   "layer": "layers/040.svg",
+   "piece": "sun-core"
+  },
+  {
+   "layer": "layers/041.svg",
+   "piece": "sun-core"
+  },
+  {
+   "rim": "M47.8,12A4.2,4.2 0 1 1 56.2,12A4.2,4.2 0 1 1 47.8,12Z",
+   "light": [
+    47.8,
+    7.8,
+    56.2,
+    16.2
+   ],
+   "piece": "sun-core"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "keyboard",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-5",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-10",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-15",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-20",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-25",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-30",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "keys-34",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "glow",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 120,
+     "duration": 380,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "sun",
+   "origin": [
+    52,
+    12
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 0,
+     "duration": 360,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "sun-rays",
+   "origin": [
+    52,
+    12
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.4,
+      0.4
+     ],
+     "at": 60,
+     "duration": 460,
+     "ease": "spring"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      -45
+     ],
+     "at": 60,
+     "duration": 560,
+     "ease": "out"
+    },
+    {
+     "kind": "opacity",
+     "from": [
+      0
+     ],
+     "at": 60,
+     "duration": 100,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "sun-core",
+   "origin": [
+    52,
+    12
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      0.6,
+      0.6
+     ],
+     "at": 0,
+     "duration": 380,
+     "ease": "spring"
+    }
+   ]
+  }
+ ]
+}

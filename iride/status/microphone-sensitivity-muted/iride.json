@@ -1,0 +1,180 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "support"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "support"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "support"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "support"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "capsule"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "capsule"
+  },
+  {
+   "clip": "M22,16 A10,10 0 0 1 42,16 V30 A10,10 0 0 1 22,30 Z",
+   "stack": [
+    {
+     "layer": "layers/006.svg",
+     "piece": "capsule"
+    }
+   ]
+  },
+  {
+   "rim": "M22,16 A10,10 0 0 1 42,16 V30 A10,10 0 0 1 22,30 Z",
+   "light": [
+    22.0,
+    16.0,
+    42.0,
+    30.0
+   ],
+   "piece": "capsule"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "grid"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "grid"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "line"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "slash"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "slash"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "slash"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "support",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "capsule",
+   "origin": [
+    32,
+    48
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.06,
+      1.06
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "grid",
+   "origin": [
+    32,
+    48
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.06,
+      1.06
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "line",
+   "origin": [
+    32,
+    48
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.06,
+      1.06
+     ],
+     "at": 0,
+     "duration": 260,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "slash",
+   "origin": [
+    13,
+    9
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      6,
+      4,
+      7,
+      52
+     ],
+     "at": 120,
+     "duration": 380,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,203 @@
+{
+ "format": 1,
+ "canvas": [
+  64,
+  64
+ ],
+ "box": [
+  0,
+  0,
+  64,
+  64
+ ],
+ "stack": [
+  {
+   "layer": "layers/000.svg",
+   "piece": "cabinet"
+  },
+  {
+   "layer": "layers/001.svg",
+   "piece": "cabinet"
+  },
+  {
+   "rim": "M15,6L35,6A6,6 0 0 1 41,12L41,51A6,6 0 0 1 35,57L15,57A6,6 0 0 1 9,51L9,12A6,6 0 0 1 15,6Z",
+   "light": [
+    9,
+    6,
+    41,
+    57
+   ],
+   "piece": "cabinet"
+  },
+  {
+   "layer": "layers/002.svg",
+   "piece": "tweeter"
+  },
+  {
+   "layer": "layers/003.svg",
+   "piece": "tweeter"
+  },
+  {
+   "layer": "layers/004.svg",
+   "piece": "tweeter"
+  },
+  {
+   "layer": "layers/005.svg",
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/006.svg",
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/007.svg",
+   "piece": "woofer"
+  },
+  {
+   "rim": "M15,39A10,10 0 1 1 35,39A10,10 0 1 1 15,39Z",
+   "light": [
+    15,
+    29,
+    35,
+    49
+   ],
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/008.svg",
+   "piece": "woofer"
+  },
+  {
+   "layer": "layers/009.svg",
+   "piece": "cross-a"
+  },
+  {
+   "layer": "layers/010.svg",
+   "piece": "cross-a"
+  },
+  {
+   "layer": "layers/011.svg",
+   "piece": "cross-a"
+  },
+  {
+   "layer": "layers/012.svg",
+   "piece": "cross-b"
+  },
+  {
+   "layer": "layers/013.svg",
+   "piece": "cross-b"
+  },
+  {
+   "layer": "layers/014.svg",
+   "piece": "cross-b"
+  }
+ ],
+ "motion": [
+  {
+   "piece": "cabinet",
+   "origin": [
+    25,
+    57
+   ],
+   "tracks": [
+    {
+     "kind": "rotate",
+     "from": [
+      -4
+     ],
+     "at": 0,
+     "duration": 90,
+     "ease": "linear"
+    },
+    {
+     "kind": "rotate",
+     "from": [
+      4
+     ],
+     "at": 90,
+     "duration": 260,
+     "ease": "spring"
+    }
+   ]
+  },
+  {
+   "piece": "tweeter",
+   "origin": [
+    32,
+    32
+   ],
+   "tracks": [
+    {
+     "kind": "opacity",
+     "from": [
+      1
+     ],
+     "at": 0,
+     "duration": 75,
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "piece": "woofer",
+   "origin": [
+    25,
+    39
+   ],
+   "tracks": [
+    {
+     "kind": "scale",
+     "from": [
+      1.12,
+      1.12
+     ],
+     "at": 0,
+     "duration": 240,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "cross-a",
+   "origin": [
+    47,
+    28.5
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      40,
+      26,
+      41,
+      42
+     ],
+     "at": 180,
+     "duration": 240,
+     "ease": "out"
+    }
+   ]
+  },
+  {
+   "piece": "cross-b",
+   "origin": [
+    58,
+    28.5
+   ],
+   "tracks": [
+    {
+     "kind": "reveal",
+     "from": [
+      63,
+      26,
+      64,
+      42
+     ],
+     "at": 360,
+     "duration": 240,
+     "ease": "out"
+    }
+   ]
+  }
+ ]
+}
