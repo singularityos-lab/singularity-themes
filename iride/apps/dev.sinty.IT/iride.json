@@ -1,0 +1,88 @@
+{
+ "format": 1,
+ "canvas": [
+  236,
+  236
+ ],
+ "box": [
+  22,
+  32,
+  216,
+  206
+ ],
+ "stack": [
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 5,
+    "blur": 6,
+    "color": "#080f1f",
+    "opacity": 0.5,
+    "region": [
+     -20,
+     -20,
+     276,
+     276
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/000.svg"
+    },
+    {
+     "layer": "layers/001.svg"
+    },
+    {
+     "layer": "layers/002.svg"
+    },
+    {
+     "layer": "layers/003.svg"
+    }
+   ]
+  },
+  {
+   "layer": "layers/004.svg"
+  },
+  {
+   "layer": "layers/005.svg"
+  },
+  {
+   "layer": "layers/006.svg"
+  },
+  {
+   "layer": "layers/007.svg"
+  },
+  {
+   "layer": "layers/008.svg"
+  },
+  {
+   "shadow": {
+    "dx": 0,
+    "dy": 4,
+    "blur": 5,
+    "color": "#0b2a66",
+    "opacity": 0.45,
+    "region": [
+     110,
+     100,
+     130,
+     130
+    ]
+   },
+   "stack": [
+    {
+     "layer": "layers/009.svg"
+    }
+   ]
+  },
+  {
+   "layer": "layers/010.svg"
+  },
+  {
+   "layer": "layers/011.svg"
+  },
+  {
+   "layer": "layers/012.svg"
+  }
+ ]
+}
